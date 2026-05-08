@@ -1,0 +1,12 @@
+# Entorno virtual
+venv/
+
+# Caches de Python y herramientas
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+
+# Archivos generados por los scripts
+inventory.csv
+executive_server_report_*.xlsx
