@@ -1,0 +1,1001 @@
+server_id,hostname,ip,mac,operating_system,ram_gb,cpu_cores,storage_gb,department,owner,environment
+SRV-0001,finance-0001,192.168.29.110,10:0c:db:01:af:59,Red Hat Enterprise Linux 9,64,4,4096,Finance,Sean Perez,development
+SRV-0002,development-0002,10.55.204.125,f4:34:82:24:02:1c,Windows Server 2022,2,16,128,Development,Amanda Morgan,testing
+SRV-0003,human-resources-0003,172.30.235.222,2a:7b:27:69:fb:86,Rocky Linux 9,32,8,512,Human Resources,Ashley Morales,production
+SRV-0004,it-0004,10.138.71.246,b0:45:3e:b2:da:01,Windows Server 2022,2,1,128,IT,Robert Walters,staging
+SRV-0005,development-0005,192.168.60.207,44:19:0b:0d:80:50,Rocky Linux 9,4,2,64,Development,Oscar Ramos,testing
+SRV-0006,development-0006,172.20.111.72,b2:ae:5e:ff:28:ea,Windows Server 2022,64,4,512,Development,Angela Beck,production
+SRV-0007,finance-0007,10.155.45.223,b8:8c:a3:72:21:ef,Debian 12,4,32,256,Finance,Manuel Velez,development
+SRV-0008,security-0008,10.24.166.77,6c:87:19:33:d7:e7,Red Hat Enterprise Linux 9,32,8,64,Security,Brittany Wilson,testing
+SRV-0009,operations-0009,192.168.42.193,b2:fc:d9:8f:ff:3f,Rocky Linux 9,2,1,4096,Operations,Peter Chavez,staging
+SRV-0010,sales-0010,10.104.213.136,38:37:2c:0e:bb:4c,Debian 12,4,32,512,Sales,Thomas Rodriguez,development
+SRV-0011,sales-0011,192.168.122.93,68:dd:e1:1c:eb:70,Rocky Linux 9,8,32,2048,Sales,Lisa Chan,production
+SRV-0012,security-0012,192.168.126.50,b8:19:9b:a7:fe:a0,Debian 12,64,16,1024,Security,Laura Kelley,development
+SRV-0013,security-0013,10.188.147.188,08:52:ae:83:58:7b,Windows Server 2019,32,4,256,Security,Sara Barnett,testing
+SRV-0014,support-0014,10.148.34.56,52:d1:12:d1:09:d1,Windows Server 2022,8,2,64,Support,William Ramos,production
+SRV-0015,finance-0015,10.197.68.151,20:ea:bf:9d:d0:8e,Red Hat Enterprise Linux 9,32,2,512,Finance,Meredith Griffin,testing
+SRV-0016,finance-0016,172.26.170.208,0c:f7:d2:e6:14:fa,Rocky Linux 9,32,16,1024,Finance,Tony Hansen,staging
+SRV-0017,support-0017,172.31.195.211,b6:76:a1:4a:e7:b4,Red Hat Enterprise Linux 9,4,2,1024,Support,Thomas Suarez,development
+SRV-0018,finance-0018,10.81.233.123,92:f8:00:34:f0:b2,Rocky Linux 9,32,16,64,Finance,Hannah Cooper,production
+SRV-0019,security-0019,192.168.254.54,b2:6d:f4:1a:27:a6,Windows Server 2022,32,2,4096,Security,Carrie Johnson,production
+SRV-0020,development-0020,172.29.140.65,72:ca:c7:d7:2f:19,Windows Server 2022,128,2,256,Development,James Woods,production
+SRV-0021,support-0021,192.168.236.59,2c:7f:c8:57:ec:7f,Windows Server 2019,16,32,4096,Support,Nathan Robinson,testing
+SRV-0022,it-0022,10.188.58.201,86:93:e4:79:1e:f7,Windows Server 2019,64,32,256,IT,Kevin Love,development
+SRV-0023,human-resources-0023,10.141.20.61,b8:93:d7:34:15:bc,Ubuntu Server 24.04,128,1,128,Human Resources,Sarah Harris,testing
+SRV-0024,support-0024,172.18.159.229,60:bf:32:c4:b9:0c,Debian 12,32,8,4096,Support,Ryan Dennis,development
+SRV-0025,development-0025,10.41.6.232,4e:b8:b3:1e:d0:d1,Windows Server 2022,4,8,64,Development,Robin Cabrera,production
+SRV-0026,it-0026,10.224.94.116,28:f6:15:c6:02:4b,Windows Server 2022,8,1,128,IT,Christopher Freeman,production
+SRV-0027,it-0027,10.108.229.141,70:3a:27:b1:0a:83,Rocky Linux 9,2,16,512,IT,Shawn Lewis,staging
+SRV-0028,development-0028,172.27.231.226,4c:db:3b:71:0f:16,Rocky Linux 9,8,1,256,Development,Samuel Martinez,development
+SRV-0029,development-0029,10.77.97.126,a0:01:69:fd:1d:0a,Ubuntu Server 24.04,16,16,64,Development,Jack Jackson,testing
+SRV-0030,support-0030,10.88.24.57,6c:31:35:94:69:07,Ubuntu Server 24.04,64,8,64,Support,Lisa Salas,staging
+SRV-0031,operations-0031,10.113.28.44,3a:9d:df:dd:d6:53,Rocky Linux 9,64,2,64,Operations,Christine Jackson,testing
+SRV-0032,security-0032,172.16.241.128,a8:e8:e5:e5:ad:7e,Red Hat Enterprise Linux 9,64,2,4096,Security,Curtis Wood,development
+SRV-0033,sales-0033,10.9.228.100,2c:d1:f7:da:70:cc,Ubuntu Server 24.04,32,4,128,Sales,Paul Barton,staging
+SRV-0034,sales-0034,172.28.215.100,24:35:83:57:e8:7b,Rocky Linux 9,16,8,2048,Sales,Michael Thomas,testing
+SRV-0035,security-0035,10.26.10.175,ba:e7:fc:ad:00:18,Windows Server 2022,32,16,128,Security,Emily Osborne,development
+SRV-0036,operations-0036,192.168.125.100,12:35:8b:cc:5b:76,Windows Server 2019,2,1,512,Operations,Anita Chang,production
+SRV-0037,sales-0037,10.3.137.202,f0:97:88:0b:c5:b1,Windows Server 2022,32,16,512,Sales,Lisa Collins,production
+SRV-0038,it-0038,10.10.194.149,1e:c4:34:f9:54:16,Rocky Linux 9,16,16,64,IT,Michael Maxwell,production
+SRV-0039,it-0039,10.135.85.114,5e:64:ef:f9:b1:c0,Ubuntu Server 24.04,16,1,2048,IT,Kathryn Salas,development
+SRV-0040,it-0040,10.10.123.52,7e:c4:2b:1b:2b:15,Ubuntu Server 24.04,4,32,2048,IT,Lynn Lopez,staging
+SRV-0041,security-0041,10.63.93.41,8e:8b:0b:7a:e9:25,Debian 12,2,2,512,Security,Amber Duncan,staging
+SRV-0042,sales-0042,192.168.168.144,6a:7a:13:f5:0f:9c,Debian 12,2,4,4096,Sales,George Young,development
+SRV-0043,human-resources-0043,172.19.72.5,2c:78:43:26:de:63,Rocky Linux 9,2,32,512,Human Resources,Andrew Mitchell,development
+SRV-0044,support-0044,10.211.54.74,d2:a3:5e:44:23:31,Ubuntu Server 24.04,32,1,256,Support,Larry Harper,staging
+SRV-0045,operations-0045,192.168.241.157,c8:93:ef:7f:ce:53,Debian 12,128,1,64,Operations,Jose White,production
+SRV-0046,finance-0046,192.168.187.181,7c:27:11:5e:7e:5c,Ubuntu Server 24.04,128,4,256,Finance,Billy Burns,production
+SRV-0047,human-resources-0047,10.76.27.89,ec:f3:64:0d:1b:a2,Windows Server 2022,32,2,1024,Human Resources,Stephanie Fox,production
+SRV-0048,security-0048,10.219.222.160,40:8b:fa:5e:44:bd,Debian 12,32,1,4096,Security,Keith Jones,staging
+SRV-0049,support-0049,10.182.100.171,6e:6b:1f:ed:4b:6f,Ubuntu Server 24.04,16,1,2048,Support,Brittany Snyder,development
+SRV-0050,security-0050,192.168.110.246,1e:1b:1a:1d:d5:6f,Red Hat Enterprise Linux 9,16,8,512,Security,Elizabeth Thompson,testing
+SRV-0051,development-0051,172.28.108.215,d2:cd:cb:2f:af:97,Rocky Linux 9,2,2,256,Development,Lori Green,production
+SRV-0052,security-0052,172.24.254.129,7c:2a:d8:73:a0:aa,Red Hat Enterprise Linux 9,4,32,64,Security,Stephanie Barrera,production
+SRV-0053,support-0053,192.168.169.178,96:29:7e:c0:df:1e,Windows Server 2019,64,2,512,Support,Terry Nicholson,testing
+SRV-0054,sales-0054,192.168.16.114,92:bb:98:56:59:54,Red Hat Enterprise Linux 9,2,2,64,Sales,Benjamin Cunningham,production
+SRV-0055,development-0055,172.23.146.106,b4:3f:73:17:96:ca,Windows Server 2022,16,4,64,Development,Katherine Lopez,development
+SRV-0056,finance-0056,192.168.222.51,b2:b9:f5:19:c8:08,Rocky Linux 9,64,2,256,Finance,Jose Gross,production
+SRV-0057,sales-0057,10.68.33.33,6c:dd:c3:e2:12:e5,Windows Server 2022,8,1,2048,Sales,Lynn Moore,production
+SRV-0058,operations-0058,192.168.110.97,74:12:c1:c6:db:a8,Rocky Linux 9,8,2,512,Operations,Katherine White,staging
+SRV-0059,human-resources-0059,192.168.112.223,a8:09:e3:cf:58:57,Ubuntu Server 24.04,64,16,1024,Human Resources,Matthew Bennett,production
+SRV-0060,finance-0060,192.168.233.120,74:8f:ea:77:1f:8a,Red Hat Enterprise Linux 9,16,8,512,Finance,Selena Wheeler DDS,staging
+SRV-0061,human-resources-0061,10.151.105.69,18:83:b6:e8:cb:30,Ubuntu Server 24.04,4,4,64,Human Resources,Jeffrey Edwards,production
+SRV-0062,development-0062,192.168.112.57,80:54:cc:9a:8b:51,Ubuntu Server 24.04,128,4,4096,Development,Bianca Lopez,staging
+SRV-0063,finance-0063,192.168.231.195,2c:89:5d:5a:0a:b5,Debian 12,2,8,64,Finance,Melissa Berry,staging
+SRV-0064,human-resources-0064,10.200.139.48,1e:d1:4e:2b:ae:7b,Debian 12,128,16,2048,Human Resources,Alex Daniels,testing
+SRV-0065,it-0065,172.31.107.252,f2:71:3c:5f:83:c7,Windows Server 2019,32,1,128,IT,Barbara Rivera,staging
+SRV-0066,finance-0066,192.168.138.198,42:1e:1f:07:81:84,Rocky Linux 9,2,32,64,Finance,Steve Gutierrez,staging
+SRV-0067,support-0067,192.168.224.83,d4:53:ff:77:ed:47,Windows Server 2019,128,8,256,Support,Austin Harrell,testing
+SRV-0068,human-resources-0068,10.20.253.239,38:fc:3d:b6:ba:d4,Rocky Linux 9,64,8,2048,Human Resources,Angela Barrett,production
+SRV-0069,finance-0069,192.168.27.255,b8:20:4d:7f:3c:4d,Rocky Linux 9,32,8,2048,Finance,Brandy Hill,staging
+SRV-0070,security-0070,172.31.42.117,20:56:20:9d:2b:fb,Windows Server 2022,8,16,4096,Security,Matthew Washington,testing
+SRV-0071,human-resources-0071,172.23.132.35,74:71:e1:fe:45:33,Ubuntu Server 24.04,16,16,64,Human Resources,Casey Young,staging
+SRV-0072,it-0072,192.168.79.155,b6:eb:c6:ad:a4:eb,Ubuntu Server 24.04,2,32,4096,IT,Danielle Avila,production
+SRV-0073,it-0073,172.24.248.173,c2:3c:ad:ed:0c:7a,Red Hat Enterprise Linux 9,2,16,64,IT,Randy Sullivan,staging
+SRV-0074,finance-0074,192.168.209.207,7c:35:4d:e6:bc:31,Windows Server 2019,32,32,64,Finance,Melissa Williams,testing
+SRV-0075,security-0075,192.168.183.205,d8:08:72:56:6e:6f,Windows Server 2019,32,8,2048,Security,Matthew Allen,development
+SRV-0076,human-resources-0076,192.168.95.216,6e:62:e9:aa:6a:e5,Debian 12,32,1,512,Human Resources,Billy Willis,development
+SRV-0077,sales-0077,10.101.34.23,40:52:c3:25:d0:6f,Windows Server 2019,4,4,256,Sales,Corey Watson,testing
+SRV-0078,support-0078,192.168.138.103,14:cc:3f:48:2c:3d,Debian 12,32,4,2048,Support,Sabrina Freeman,development
+SRV-0079,it-0079,172.30.113.56,82:4f:9a:5d:f8:ad,Red Hat Enterprise Linux 9,64,8,2048,IT,Mary Smith,staging
+SRV-0080,development-0080,192.168.109.207,54:ab:af:d1:bf:62,Ubuntu Server 24.04,2,4,64,Development,Michael Hansen,development
+SRV-0081,operations-0081,172.16.18.27,56:e8:64:09:4b:39,Windows Server 2022,64,32,128,Operations,Brian Juarez,development
+SRV-0082,human-resources-0082,192.168.220.156,66:24:7f:16:fa:ce,Rocky Linux 9,8,4,64,Human Resources,Jessica Warner,testing
+SRV-0083,support-0083,172.18.20.36,9e:9c:e1:eb:0c:9e,Windows Server 2019,16,8,64,Support,Brian Garner,staging
+SRV-0084,sales-0084,192.168.131.182,38:a7:f6:a0:0d:b8,Red Hat Enterprise Linux 9,64,8,64,Sales,Mr. Joseph Rivas,staging
+SRV-0085,support-0085,172.18.175.104,58:9c:9c:f9:ac:97,Windows Server 2022,8,2,64,Support,Mark Huber,production
+SRV-0086,finance-0086,10.184.234.135,44:e5:59:fc:c7:98,Red Hat Enterprise Linux 9,16,2,4096,Finance,Susan Sullivan,testing
+SRV-0087,it-0087,172.18.70.226,8c:f1:22:90:1d:b9,Ubuntu Server 24.04,4,16,2048,IT,Mikayla Stone,testing
+SRV-0088,support-0088,10.165.165.142,b6:a1:ed:9a:e5:45,Windows Server 2022,128,16,64,Support,Olivia Foster,staging
+SRV-0089,human-resources-0089,10.124.252.27,16:dc:24:87:4f:dc,Windows Server 2022,128,32,128,Human Resources,Peter Cortez,production
+SRV-0090,finance-0090,192.168.53.174,7c:70:bd:ec:dd:be,Debian 12,16,2,64,Finance,Brian Schwartz,staging
+SRV-0091,operations-0091,192.168.52.124,18:d9:79:cf:59:bb,Ubuntu Server 24.04,2,8,256,Operations,Anthony Davis,testing
+SRV-0092,finance-0092,192.168.66.70,7e:bb:92:b5:46:c8,Ubuntu Server 24.04,8,32,256,Finance,Jacqueline Elliott,testing
+SRV-0093,human-resources-0093,10.39.134.126,26:5a:5c:f0:13:bc,Windows Server 2019,4,2,1024,Human Resources,Karen Gray,production
+SRV-0094,development-0094,172.21.96.168,34:ef:8c:56:65:ae,Windows Server 2019,4,2,128,Development,Tonya Hall,testing
+SRV-0095,security-0095,172.21.187.53,16:83:17:48:85:46,Ubuntu Server 24.04,16,16,512,Security,Austin Drake,staging
+SRV-0096,it-0096,192.168.0.181,b0:28:d6:5c:0d:9b,Rocky Linux 9,4,2,256,IT,Kayla Martinez,development
+SRV-0097,sales-0097,10.78.113.165,da:16:7a:47:a4:1c,Rocky Linux 9,32,16,256,Sales,Leslie Jackson,testing
+SRV-0098,operations-0098,172.21.57.243,2a:77:0a:a3:ac:16,Ubuntu Server 24.04,128,2,256,Operations,Anthony Petty,staging
+SRV-0099,it-0099,192.168.87.202,6e:7e:c5:f8:1c:54,Windows Server 2019,128,32,256,IT,Sean Garcia,development
+SRV-0100,it-0100,10.202.201.139,1c:d2:50:b1:f3:7b,Debian 12,64,2,128,IT,Suzanne Rodriguez,production
+SRV-0101,development-0101,172.16.31.78,54:48:32:84:e0:59,Debian 12,2,8,512,Development,Gary Robinson,production
+SRV-0102,development-0102,10.144.107.18,02:ea:9d:10:2b:94,Red Hat Enterprise Linux 9,64,1,1024,Development,Brendan Smith,staging
+SRV-0103,human-resources-0103,172.18.151.162,e6:62:48:22:e6:bc,Rocky Linux 9,128,8,512,Human Resources,Katrina Bright,testing
+SRV-0104,human-resources-0104,172.24.40.101,14:03:67:01:3d:75,Ubuntu Server 24.04,64,16,2048,Human Resources,Michelle Brewer,production
+SRV-0105,support-0105,192.168.118.30,48:59:5b:2d:68:44,Red Hat Enterprise Linux 9,8,1,256,Support,Shelly Henry MD,testing
+SRV-0106,support-0106,10.27.58.104,6c:9e:f1:7f:c8:04,Windows Server 2022,2,2,512,Support,Robert Sloan,staging
+SRV-0107,sales-0107,192.168.177.204,2e:b5:0b:3d:8f:a6,Windows Server 2019,32,16,512,Sales,Jean Williamson,testing
+SRV-0108,support-0108,172.23.14.150,0e:3b:ca:51:f8:da,Windows Server 2019,4,32,4096,Support,Scott Williams,production
+SRV-0109,support-0109,10.252.78.96,ae:fd:d0:24:f4:17,Windows Server 2019,4,2,4096,Support,Lindsey Hickman,development
+SRV-0110,human-resources-0110,192.168.171.42,6e:e4:f9:17:0f:60,Windows Server 2022,16,4,512,Human Resources,Lori Garcia,production
+SRV-0111,human-resources-0111,192.168.188.246,b2:67:34:4b:36:08,Red Hat Enterprise Linux 9,8,32,64,Human Resources,Kevin Humphrey Jr.,development
+SRV-0112,security-0112,10.82.189.44,14:92:01:40:86:34,Rocky Linux 9,16,16,512,Security,Tina Miller,staging
+SRV-0113,finance-0113,172.21.97.138,7e:a8:15:a3:21:78,Debian 12,8,16,2048,Finance,Katherine Kim,testing
+SRV-0114,support-0114,172.22.233.136,ee:74:b4:9e:80:66,Debian 12,128,32,1024,Support,April Nelson,staging
+SRV-0115,finance-0115,192.168.249.246,0c:d5:68:48:24:e6,Windows Server 2022,8,8,256,Finance,Tamara Ewing,staging
+SRV-0116,support-0116,192.168.235.145,aa:a8:d7:a9:bf:f4,Ubuntu Server 24.04,32,32,64,Support,Francisco Miller,production
+SRV-0117,human-resources-0117,192.168.151.158,3e:d0:89:24:f7:0c,Windows Server 2022,16,2,512,Human Resources,Joshua Valdez,development
+SRV-0118,development-0118,172.17.211.127,f2:fa:77:b4:3d:79,Ubuntu Server 24.04,64,32,128,Development,Sarah Jones,testing
+SRV-0119,development-0119,172.21.12.69,50:32:1f:f3:af:c0,Windows Server 2019,32,4,1024,Development,Patricia Zimmerman,production
+SRV-0120,finance-0120,172.28.245.217,ee:cd:97:43:30:27,Ubuntu Server 24.04,64,2,512,Finance,Garrett Mcdaniel,staging
+SRV-0121,sales-0121,172.16.65.20,6c:f7:a7:15:fb:9d,Windows Server 2019,8,32,128,Sales,Brian Wright,staging
+SRV-0122,sales-0122,10.21.178.150,cc:a3:9c:15:51:d7,Rocky Linux 9,2,16,1024,Sales,Mark Thompson,staging
+SRV-0123,operations-0123,10.206.215.84,00:ba:cc:c2:0c:83,Rocky Linux 9,8,8,4096,Operations,Amanda Davila,development
+SRV-0124,it-0124,192.168.244.254,f6:73:fc:f6:ea:b2,Windows Server 2019,32,4,256,IT,Sean Gross,production
+SRV-0125,security-0125,192.168.158.85,28:19:df:f1:eb:35,Windows Server 2019,64,2,512,Security,Heather Miller,production
+SRV-0126,support-0126,172.17.0.198,84:f0:7d:3c:cc:52,Red Hat Enterprise Linux 9,32,1,512,Support,Dean Herrera,testing
+SRV-0127,finance-0127,192.168.95.113,b0:6b:a3:82:c4:12,Ubuntu Server 24.04,4,8,4096,Finance,Christy Donovan,staging
+SRV-0128,support-0128,10.220.213.60,aa:32:7e:53:5e:f4,Windows Server 2019,8,8,1024,Support,Briana Berry,development
+SRV-0129,it-0129,192.168.248.41,5a:cc:e6:16:98:a6,Debian 12,2,32,64,IT,Michael Torres,testing
+SRV-0130,operations-0130,10.150.192.197,e2:8b:fd:75:cd:85,Debian 12,4,2,4096,Operations,Lisa Johnson,staging
+SRV-0131,it-0131,172.17.13.71,3a:86:0d:77:bd:d0,Windows Server 2019,16,16,64,IT,Lindsey Woods,development
+SRV-0132,human-resources-0132,172.31.71.16,5e:8b:1b:a3:9c:94,Ubuntu Server 24.04,64,4,4096,Human Resources,Charles Gay,development
+SRV-0133,it-0133,10.3.195.23,e0:bf:64:08:de:b9,Debian 12,16,1,1024,IT,Dana Wilcox,staging
+SRV-0134,finance-0134,192.168.99.226,58:d9:8f:b3:8b:61,Debian 12,8,8,2048,Finance,Allison Black,staging
+SRV-0135,development-0135,172.21.127.210,00:c3:c6:e0:01:14,Windows Server 2022,128,32,1024,Development,Robin Dyer,development
+SRV-0136,human-resources-0136,10.202.30.179,6a:cc:68:f4:c1:4f,Windows Server 2019,2,4,512,Human Resources,Julie Taylor,development
+SRV-0137,it-0137,172.30.221.5,4a:b4:b1:f5:c1:87,Rocky Linux 9,128,8,4096,IT,Marcus Gibson,production
+SRV-0138,sales-0138,192.168.176.175,b8:3b:09:84:9a:69,Rocky Linux 9,4,4,512,Sales,Taylor Smith,production
+SRV-0139,it-0139,10.98.7.48,16:ed:89:a0:a1:67,Ubuntu Server 24.04,4,1,4096,IT,David Ramirez,development
+SRV-0140,finance-0140,192.168.254.201,6e:75:07:c4:bf:13,Ubuntu Server 24.04,128,8,128,Finance,Anthony West,staging
+SRV-0141,human-resources-0141,172.20.19.150,72:6f:eb:75:e3:b6,Debian 12,2,2,512,Human Resources,Michael Peck,staging
+SRV-0142,security-0142,192.168.170.53,12:a6:fe:45:99:51,Debian 12,4,2,1024,Security,Sara Norton,development
+SRV-0143,operations-0143,172.18.32.35,9a:ba:f2:1f:b6:1e,Ubuntu Server 24.04,64,32,256,Operations,Christine Gonzalez,staging
+SRV-0144,operations-0144,172.29.88.61,2c:ff:65:cb:59:bf,Rocky Linux 9,16,8,4096,Operations,Christine Payne,development
+SRV-0145,sales-0145,172.25.1.102,76:22:f7:b9:64:46,Red Hat Enterprise Linux 9,4,2,256,Sales,Kevin Welch,staging
+SRV-0146,finance-0146,192.168.37.204,f6:b9:ac:af:a9:c9,Debian 12,64,1,4096,Finance,Michele Hahn,development
+SRV-0147,security-0147,10.206.159.225,a6:24:fa:e6:de:10,Windows Server 2022,2,1,4096,Security,Elizabeth Poole,production
+SRV-0148,security-0148,10.25.186.51,d0:ea:bd:78:d4:18,Rocky Linux 9,8,4,64,Security,Martin Allen,production
+SRV-0149,development-0149,172.16.187.141,ee:99:4d:34:20:2e,Windows Server 2019,8,2,512,Development,Gary Edwards,testing
+SRV-0150,development-0150,192.168.55.2,42:13:14:f3:1b:6d,Rocky Linux 9,16,1,128,Development,Karen Duran,development
+SRV-0151,finance-0151,172.20.250.247,04:70:69:d9:66:5f,Windows Server 2022,16,4,2048,Finance,Joanna Patton,production
+SRV-0152,it-0152,10.123.0.66,04:31:aa:50:fe:d9,Ubuntu Server 24.04,4,1,2048,IT,Derrick Deleon,staging
+SRV-0153,support-0153,172.21.175.166,7e:f9:8e:bd:fe:be,Red Hat Enterprise Linux 9,4,2,256,Support,Colin Dillon,development
+SRV-0154,development-0154,10.178.49.126,72:60:84:06:41:57,Ubuntu Server 24.04,64,8,2048,Development,Mikayla Savage,staging
+SRV-0155,operations-0155,172.20.32.224,60:8e:e2:07:3f:c3,Windows Server 2022,32,8,1024,Operations,Sean Spencer DDS,development
+SRV-0156,security-0156,192.168.28.31,5a:d8:3b:71:e0:e2,Debian 12,8,2,2048,Security,Timothy Mitchell,production
+SRV-0157,operations-0157,192.168.178.106,ac:a8:bf:64:74:bf,Ubuntu Server 24.04,64,32,256,Operations,Elizabeth Beck,testing
+SRV-0158,operations-0158,172.31.211.207,92:ac:07:5c:80:cb,Rocky Linux 9,16,32,2048,Operations,Ashley Wilson,development
+SRV-0159,development-0159,10.19.149.204,7a:fe:be:71:06:5d,Windows Server 2019,32,8,128,Development,Kimberly White,development
+SRV-0160,sales-0160,172.30.166.25,22:ca:4b:52:38:ed,Windows Server 2022,32,4,4096,Sales,Kathryn Davis,development
+SRV-0161,support-0161,10.196.1.166,e2:4e:8b:12:fa:58,Debian 12,64,1,256,Support,Erin Hayes,development
+SRV-0162,human-resources-0162,192.168.42.58,74:e6:81:b4:76:fe,Windows Server 2022,4,32,1024,Human Resources,Eric Hamilton,development
+SRV-0163,operations-0163,172.21.235.16,8a:64:d2:d0:b6:e3,Ubuntu Server 24.04,8,8,4096,Operations,Douglas Collins,testing
+SRV-0164,sales-0164,10.173.34.167,36:ec:b7:5f:17:49,Ubuntu Server 24.04,4,4,128,Sales,Tom Frank,testing
+SRV-0165,human-resources-0165,172.23.53.234,86:2c:db:7c:a1:ab,Ubuntu Server 24.04,4,2,256,Human Resources,Mr. Dillon Meyer,staging
+SRV-0166,finance-0166,172.21.25.87,0c:0e:97:03:7b:89,Debian 12,8,16,64,Finance,Anne Williams,staging
+SRV-0167,it-0167,172.28.87.27,d6:70:e7:05:7e:42,Ubuntu Server 24.04,2,16,2048,IT,Kristie Mclean,testing
+SRV-0168,support-0168,10.73.54.218,28:11:cf:90:10:9c,Windows Server 2022,64,4,64,Support,Heather Williams,development
+SRV-0169,security-0169,192.168.145.178,36:0e:2b:12:70:6b,Ubuntu Server 24.04,2,4,2048,Security,Regina Baker,testing
+SRV-0170,sales-0170,172.28.193.149,88:2c:a2:e2:85:77,Windows Server 2019,16,1,512,Sales,Scott Wells,development
+SRV-0171,it-0171,10.158.208.59,2a:ed:93:27:ce:37,Ubuntu Server 24.04,32,16,4096,IT,Kristen Myers,production
+SRV-0172,human-resources-0172,10.249.52.82,e4:2d:c9:74:e9:35,Red Hat Enterprise Linux 9,16,2,512,Human Resources,Ashley Molina,production
+SRV-0173,human-resources-0173,10.21.152.68,c4:57:ba:40:3d:2c,Red Hat Enterprise Linux 9,64,8,1024,Human Resources,Jessica Jones,staging
+SRV-0174,human-resources-0174,10.44.29.26,b4:42:3a:ad:a3:93,Debian 12,2,32,4096,Human Resources,Dana Thomas,staging
+SRV-0175,finance-0175,10.253.159.168,e0:e6:0f:22:68:17,Rocky Linux 9,16,16,128,Finance,Renee Nelson,staging
+SRV-0176,operations-0176,10.150.209.9,8e:16:20:d3:76:87,Windows Server 2022,2,2,64,Operations,Lisa Johnson,production
+SRV-0177,human-resources-0177,10.252.178.174,be:91:cc:ad:78:de,Ubuntu Server 24.04,64,4,2048,Human Resources,Ashley Weaver,production
+SRV-0178,it-0178,172.29.11.21,58:6a:ce:75:2c:9e,Windows Server 2022,2,8,4096,IT,Christina Jones,development
+SRV-0179,development-0179,10.171.246.71,1c:69:ad:6f:e8:bf,Red Hat Enterprise Linux 9,16,16,512,Development,Brandi Bishop,staging
+SRV-0180,human-resources-0180,192.168.224.172,1e:8d:3a:8b:41:76,Red Hat Enterprise Linux 9,4,16,128,Human Resources,Kenneth Hogan,development
+SRV-0181,support-0181,10.240.231.102,10:bc:58:37:ab:f3,Windows Server 2019,2,32,128,Support,Joanna Warren,development
+SRV-0182,support-0182,172.23.220.210,dc:d4:81:42:81:6e,Rocky Linux 9,128,4,4096,Support,Sheila Lopez,production
+SRV-0183,sales-0183,192.168.10.161,54:7e:eb:05:1d:f3,Debian 12,64,2,1024,Sales,Mary Peterson,staging
+SRV-0184,sales-0184,10.172.119.205,68:f4:d8:8c:51:dc,Debian 12,32,8,64,Sales,Amber Frost,staging
+SRV-0185,security-0185,172.21.157.143,8c:8c:d8:7e:b0:a0,Rocky Linux 9,4,2,4096,Security,Hannah Park,testing
+SRV-0186,it-0186,192.168.9.108,d8:44:5e:1f:8e:ce,Debian 12,64,8,1024,IT,Sandra Osborne,production
+SRV-0187,human-resources-0187,172.25.93.111,de:d4:63:ef:5f:f9,Ubuntu Server 24.04,64,1,256,Human Resources,Joel Collins,staging
+SRV-0188,development-0188,192.168.207.143,1e:3b:6e:83:f5:2d,Red Hat Enterprise Linux 9,16,1,1024,Development,Raymond Brown,production
+SRV-0189,it-0189,10.92.171.210,10:8d:99:dd:4e:88,Rocky Linux 9,128,1,128,IT,Sandra Mullen,production
+SRV-0190,sales-0190,192.168.100.103,5c:b4:71:28:22:84,Ubuntu Server 24.04,2,2,4096,Sales,Benjamin Beltran,development
+SRV-0191,support-0191,192.168.81.58,90:12:ec:df:9c:ee,Ubuntu Server 24.04,16,32,128,Support,Terry Franco,testing
+SRV-0192,security-0192,172.27.111.226,2e:dc:b4:7a:05:80,Windows Server 2019,16,4,4096,Security,James Johnson,staging
+SRV-0193,security-0193,192.168.48.211,98:09:ee:1c:27:0c,Windows Server 2022,128,4,512,Security,Amy Little,testing
+SRV-0194,support-0194,192.168.60.191,40:23:69:8f:5f:a2,Debian 12,32,2,1024,Support,Malik Fuentes,development
+SRV-0195,operations-0195,192.168.76.27,b0:11:d9:9d:84:c7,Windows Server 2022,8,2,64,Operations,Melissa Payne,staging
+SRV-0196,it-0196,172.22.211.156,5e:73:04:6f:b9:d1,Ubuntu Server 24.04,16,8,2048,IT,Mrs. Jennifer Simmons,staging
+SRV-0197,human-resources-0197,192.168.130.31,06:51:1b:ff:6c:83,Windows Server 2019,16,1,4096,Human Resources,Terri Flores,staging
+SRV-0198,development-0198,192.168.50.182,5c:4e:95:09:a4:a1,Windows Server 2019,128,8,128,Development,Jacob Whitney,testing
+SRV-0199,development-0199,172.31.171.173,f6:f2:b6:50:60:1b,Windows Server 2019,4,4,64,Development,Mrs. Erica Bennett,testing
+SRV-0200,it-0200,10.243.184.38,5c:18:4b:18:1a:76,Ubuntu Server 24.04,8,32,256,IT,Carlos Thomas,testing
+SRV-0201,development-0201,192.168.183.52,e8:48:36:eb:77:67,Red Hat Enterprise Linux 9,64,32,64,Development,Kelsey Howard,production
+SRV-0202,finance-0202,172.25.45.210,f2:34:a7:5e:87:3c,Red Hat Enterprise Linux 9,2,2,4096,Finance,Tyler Fuller,production
+SRV-0203,sales-0203,172.20.139.142,c6:5a:9d:ca:72:f7,Rocky Linux 9,64,16,2048,Sales,Amber Brooks MD,development
+SRV-0204,operations-0204,10.141.48.220,a0:b6:2a:55:4f:26,Windows Server 2019,128,1,4096,Operations,Gregory Ward,development
+SRV-0205,sales-0205,192.168.176.54,a0:6c:d1:05:84:e8,Red Hat Enterprise Linux 9,8,2,4096,Sales,Carol Sutton,staging
+SRV-0206,development-0206,192.168.81.56,f4:ba:cf:5f:ed:85,Red Hat Enterprise Linux 9,8,32,4096,Development,Valerie Hall,staging
+SRV-0207,support-0207,172.29.26.161,ba:62:f6:0c:7d:27,Windows Server 2022,16,16,2048,Support,Ricky Evans,testing
+SRV-0208,support-0208,172.25.159.49,2a:54:9c:9a:d7:7d,Windows Server 2022,64,16,512,Support,Joseph Ramirez,testing
+SRV-0209,it-0209,10.171.31.55,54:3b:3c:e9:0c:ca,Red Hat Enterprise Linux 9,2,1,4096,IT,Chad Hall,development
+SRV-0210,sales-0210,10.19.23.133,36:8f:86:1f:c7:0d,Ubuntu Server 24.04,2,1,256,Sales,Christine Hall,testing
+SRV-0211,it-0211,172.21.0.156,38:d3:71:e4:87:23,Rocky Linux 9,8,4,256,IT,Julia Simmons,development
+SRV-0212,support-0212,192.168.2.24,18:c0:80:63:93:1c,Debian 12,16,4,64,Support,Nicholas Atkins,production
+SRV-0213,development-0213,192.168.91.44,58:a8:94:6b:19:4a,Rocky Linux 9,32,1,1024,Development,Robert Young,testing
+SRV-0214,human-resources-0214,10.174.131.21,58:06:31:cf:32:a7,Windows Server 2019,4,1,256,Human Resources,Michelle Lynch,development
+SRV-0215,human-resources-0215,192.168.131.56,c4:f9:15:5f:22:a1,Ubuntu Server 24.04,64,32,1024,Human Resources,James Griffith,production
+SRV-0216,sales-0216,192.168.245.123,66:3b:f9:57:31:8b,Debian 12,128,32,128,Sales,Dr. Susan Mcguire,development
+SRV-0217,finance-0217,10.77.232.206,34:69:39:38:60:1e,Rocky Linux 9,128,16,1024,Finance,James Carter,staging
+SRV-0218,human-resources-0218,192.168.177.128,28:3f:64:35:7e:1a,Rocky Linux 9,8,32,64,Human Resources,Christopher Brown,testing
+SRV-0219,security-0219,172.21.37.81,ce:47:19:60:01:4a,Windows Server 2022,32,1,512,Security,Gina Alvarado,testing
+SRV-0220,operations-0220,192.168.113.233,7c:52:8a:5e:9b:c6,Debian 12,4,32,512,Operations,Christy Jackson,testing
+SRV-0221,support-0221,10.16.234.197,6a:87:a5:28:08:6b,Red Hat Enterprise Linux 9,4,32,2048,Support,Samantha Brown,staging
+SRV-0222,operations-0222,172.22.108.179,92:f2:f9:61:d6:a2,Windows Server 2022,32,16,4096,Operations,William Little,staging
+SRV-0223,sales-0223,192.168.57.59,8e:13:17:f8:c4:45,Windows Server 2022,8,16,4096,Sales,Benjamin Thompson,testing
+SRV-0224,human-resources-0224,10.59.156.170,4e:59:e1:44:27:e8,Windows Server 2019,64,16,512,Human Resources,Mrs. Kelly Jimenez DDS,production
+SRV-0225,human-resources-0225,172.23.155.125,1e:09:5c:fe:b0:f1,Ubuntu Server 24.04,2,8,128,Human Resources,Scott Wong,development
+SRV-0226,it-0226,192.168.96.90,b8:23:8a:6c:58:c3,Debian 12,16,16,512,IT,Allen Thomas,testing
+SRV-0227,support-0227,10.146.66.74,40:76:60:85:a8:bb,Ubuntu Server 24.04,2,4,512,Support,Amy Jimenez,testing
+SRV-0228,operations-0228,172.24.54.43,94:31:0e:25:1b:f7,Windows Server 2022,32,2,4096,Operations,Lindsey Rich,testing
+SRV-0229,operations-0229,10.136.151.210,22:82:46:e4:9d:4c,Ubuntu Server 24.04,4,8,128,Operations,Brandi Griffin,development
+SRV-0230,operations-0230,10.232.106.248,de:bf:a5:a6:c4:2d,Windows Server 2022,128,1,128,Operations,Timothy Caldwell,testing
+SRV-0231,sales-0231,192.168.239.174,ae:c0:2d:1f:ad:a9,Ubuntu Server 24.04,2,1,64,Sales,Hannah Smith,staging
+SRV-0232,sales-0232,172.30.203.215,e6:31:73:d4:8c:5f,Red Hat Enterprise Linux 9,8,1,128,Sales,Nathan Woods,production
+SRV-0233,support-0233,172.24.217.117,aa:3d:77:48:c5:ae,Windows Server 2022,2,2,4096,Support,Craig Brown,development
+SRV-0234,development-0234,10.115.202.135,7c:6e:97:e2:ea:67,Windows Server 2022,64,2,256,Development,Matthew Flores,staging
+SRV-0235,finance-0235,10.167.99.36,fa:b6:bd:f3:1f:58,Rocky Linux 9,4,2,4096,Finance,Howard Meza,staging
+SRV-0236,finance-0236,10.34.130.91,c2:1a:a3:11:16:04,Debian 12,32,32,2048,Finance,Krista Rogers,production
+SRV-0237,finance-0237,10.132.180.111,bc:4a:60:54:96:f0,Ubuntu Server 24.04,16,1,512,Finance,Jessica Johnston,production
+SRV-0238,support-0238,172.24.156.53,de:ae:cc:bb:19:91,Ubuntu Server 24.04,4,1,64,Support,Lynn Guerrero,development
+SRV-0239,sales-0239,10.124.153.133,12:45:a9:49:8c:df,Windows Server 2022,2,16,1024,Sales,Jessica Green,development
+SRV-0240,operations-0240,192.168.107.125,cc:5f:54:3f:d0:69,Ubuntu Server 24.04,128,16,256,Operations,Catherine Brown,testing
+SRV-0241,human-resources-0241,172.28.81.70,32:37:50:61:6b:db,Rocky Linux 9,8,2,2048,Human Resources,Jonathan Lopez,staging
+SRV-0242,development-0242,172.29.62.91,1a:fa:e6:a1:c0:93,Rocky Linux 9,32,1,2048,Development,Johnny Bartlett,testing
+SRV-0243,human-resources-0243,192.168.98.218,1a:35:0a:73:32:7e,Windows Server 2022,16,1,64,Human Resources,Theresa Hahn,development
+SRV-0244,sales-0244,192.168.165.251,80:bd:ed:be:17:7a,Ubuntu Server 24.04,64,1,1024,Sales,Susan Wagner,staging
+SRV-0245,it-0245,192.168.16.84,0a:6e:13:7a:f6:f4,Rocky Linux 9,16,8,2048,IT,Amanda Young,testing
+SRV-0246,development-0246,172.31.143.38,6e:38:02:0a:50:d4,Debian 12,4,4,128,Development,Jonathan Dixon,production
+SRV-0247,sales-0247,192.168.86.205,d4:6b:ff:db:5e:e0,Debian 12,64,4,512,Sales,Tammy Robinson,development
+SRV-0248,security-0248,172.17.14.144,3e:f9:c5:e8:45:a8,Windows Server 2019,128,16,2048,Security,Katherine Frye,staging
+SRV-0249,sales-0249,172.23.177.182,8e:97:35:b8:15:d2,Debian 12,16,1,64,Sales,Linda Doyle,staging
+SRV-0250,security-0250,192.168.133.150,60:14:d5:ce:c0:a4,Red Hat Enterprise Linux 9,64,1,64,Security,Robert Morgan,testing
+SRV-0251,finance-0251,192.168.28.142,94:b8:30:a8:8a:18,Windows Server 2022,2,32,512,Finance,Isabel Rodriguez,staging
+SRV-0252,development-0252,10.49.196.144,d8:78:18:07:1f:45,Rocky Linux 9,8,16,1024,Development,Steven Ruiz,testing
+SRV-0253,finance-0253,10.251.178.110,78:79:e8:7d:b8:4c,Ubuntu Server 24.04,4,8,64,Finance,Heidi Lewis,production
+SRV-0254,support-0254,172.17.76.243,c6:de:af:2a:5e:88,Windows Server 2019,16,16,512,Support,Chris Nelson,staging
+SRV-0255,operations-0255,192.168.211.74,b6:c0:1c:fe:a4:f4,Windows Server 2022,2,4,1024,Operations,Anna Rivera,development
+SRV-0256,human-resources-0256,10.250.146.149,ae:55:f0:bc:cd:f5,Red Hat Enterprise Linux 9,2,16,64,Human Resources,Jessica Valencia,testing
+SRV-0257,support-0257,192.168.121.139,02:45:38:79:e1:86,Debian 12,32,8,2048,Support,Gabriella Gordon,staging
+SRV-0258,operations-0258,10.64.32.172,4e:fd:70:74:ef:f4,Windows Server 2019,16,16,64,Operations,Anna Montgomery,development
+SRV-0259,operations-0259,172.29.254.116,64:6b:a8:61:ce:0e,Red Hat Enterprise Linux 9,4,32,1024,Operations,Crystal Morse,production
+SRV-0260,development-0260,172.28.152.185,a6:41:d6:7f:df:c6,Red Hat Enterprise Linux 9,32,1,64,Development,Mandy Cooper,staging
+SRV-0261,development-0261,10.155.183.91,80:ef:9d:3f:9a:8e,Red Hat Enterprise Linux 9,2,1,4096,Development,Terrence Kim,production
+SRV-0262,human-resources-0262,172.27.137.53,6e:1c:af:e6:5d:8c,Red Hat Enterprise Linux 9,64,32,512,Human Resources,Noah Perez,production
+SRV-0263,finance-0263,172.19.176.109,1c:4a:34:f8:aa:18,Ubuntu Server 24.04,128,4,2048,Finance,Rachel Smith,staging
+SRV-0264,finance-0264,172.22.126.116,9a:e1:d5:c4:87:5f,Rocky Linux 9,2,2,4096,Finance,Mr. Robert Anthony,development
+SRV-0265,finance-0265,192.168.81.35,32:a6:68:a8:d3:c9,Ubuntu Server 24.04,8,2,1024,Finance,Joe Lopez,testing
+SRV-0266,finance-0266,192.168.213.172,9c:5f:ad:3c:76:c7,Ubuntu Server 24.04,32,8,512,Finance,Timothy Williams,staging
+SRV-0267,security-0267,192.168.68.216,f4:e9:07:c7:8e:ee,Debian 12,128,32,128,Security,Erika Martinez,staging
+SRV-0268,sales-0268,10.43.34.5,94:bb:e4:63:fd:29,Debian 12,128,32,64,Sales,Anthony Wright,testing
+SRV-0269,finance-0269,10.83.195.13,ce:b2:6c:03:82:be,Windows Server 2019,16,8,1024,Finance,Erik Jackson,staging
+SRV-0270,human-resources-0270,10.126.3.172,a6:75:8e:40:d8:b2,Debian 12,32,16,128,Human Resources,Steven Jones DVM,staging
+SRV-0271,finance-0271,172.29.149.255,82:63:f2:f6:5c:19,Debian 12,128,2,256,Finance,Tamara Wagner,development
+SRV-0272,security-0272,192.168.161.226,96:5e:36:ed:ed:90,Windows Server 2022,32,32,2048,Security,Christian Norman Jr.,development
+SRV-0273,support-0273,10.108.63.66,08:6f:28:4c:7e:51,Rocky Linux 9,2,8,1024,Support,Mary Daniels,development
+SRV-0274,security-0274,192.168.56.254,72:f7:c6:e3:e9:dc,Windows Server 2019,64,4,4096,Security,Casey Roach,staging
+SRV-0275,it-0275,192.168.10.3,86:3b:bb:be:b6:1d,Windows Server 2019,64,16,256,IT,Wendy Lewis,testing
+SRV-0276,sales-0276,172.30.123.171,88:c1:a2:c5:11:40,Windows Server 2022,2,1,4096,Sales,Steven Jacobson,production
+SRV-0277,sales-0277,172.23.85.149,b6:d0:62:e4:c7:9f,Red Hat Enterprise Linux 9,64,1,4096,Sales,Kyle Harrell,production
+SRV-0278,security-0278,192.168.66.55,96:a7:41:16:c4:15,Debian 12,32,2,1024,Security,Matthew Wallace,production
+SRV-0279,operations-0279,192.168.28.18,38:55:5b:2a:26:e7,Ubuntu Server 24.04,2,4,256,Operations,Zachary Johnston,staging
+SRV-0280,support-0280,10.230.18.147,52:60:a6:77:e8:64,Debian 12,16,16,4096,Support,Melissa Gutierrez,testing
+SRV-0281,development-0281,192.168.61.150,88:b1:20:58:59:0b,Windows Server 2019,8,2,128,Development,Jonathon Thomas,testing
+SRV-0282,sales-0282,172.29.246.219,a0:25:be:bc:d3:22,Windows Server 2019,2,1,64,Sales,Susan Lowe,production
+SRV-0283,human-resources-0283,172.26.172.239,6e:f0:f4:59:f9:34,Debian 12,128,2,4096,Human Resources,Jason Smith,production
+SRV-0284,development-0284,10.62.67.254,a4:01:ac:fa:1d:21,Windows Server 2019,32,4,4096,Development,Jill Thomas,staging
+SRV-0285,sales-0285,10.144.112.27,60:e4:54:56:ce:27,Windows Server 2019,16,2,64,Sales,Roberto West,staging
+SRV-0286,security-0286,10.8.174.185,be:fe:8a:52:53:74,Debian 12,2,4,2048,Security,Randall Mendez,development
+SRV-0287,human-resources-0287,172.27.229.111,54:14:85:7f:3d:e5,Ubuntu Server 24.04,64,8,1024,Human Resources,Denise Kaufman,staging
+SRV-0288,finance-0288,172.23.81.126,78:d7:83:c0:08:6b,Rocky Linux 9,4,4,1024,Finance,Ronald Aguilar,staging
+SRV-0289,support-0289,10.53.91.102,50:cd:d9:f4:4e:a8,Rocky Linux 9,2,1,256,Support,Amber Howell,staging
+SRV-0290,it-0290,10.147.61.146,c0:16:f0:3b:af:85,Debian 12,8,4,128,IT,Christopher Logan,staging
+SRV-0291,security-0291,192.168.130.67,9e:65:0a:ff:24:d0,Ubuntu Server 24.04,32,4,64,Security,Christina Gallagher,production
+SRV-0292,development-0292,192.168.184.165,76:62:8e:81:20:e1,Windows Server 2019,16,2,1024,Development,Nancy Cook,development
+SRV-0293,human-resources-0293,10.1.238.32,0e:7c:82:1e:9c:0d,Red Hat Enterprise Linux 9,128,16,256,Human Resources,Stacy Wilson,development
+SRV-0294,finance-0294,192.168.87.192,1e:35:c8:11:a0:cd,Ubuntu Server 24.04,64,16,256,Finance,Daniel Ramos,staging
+SRV-0295,it-0295,192.168.30.120,d2:90:f8:06:af:ed,Rocky Linux 9,4,4,128,IT,Eugene Jacobs,testing
+SRV-0296,security-0296,192.168.61.205,ee:7d:23:64:39:b0,Red Hat Enterprise Linux 9,2,16,512,Security,Jennifer Baird,testing
+SRV-0297,human-resources-0297,10.86.200.209,c0:e7:99:b9:81:f6,Ubuntu Server 24.04,32,2,512,Human Resources,Anthony Smith,testing
+SRV-0298,finance-0298,172.18.223.245,96:48:f3:02:fe:e2,Windows Server 2022,32,16,1024,Finance,Jordan Beck,development
+SRV-0299,it-0299,172.17.199.59,2a:2a:2b:f4:63:94,Windows Server 2022,16,16,512,IT,Brandon Soto,staging
+SRV-0300,finance-0300,192.168.24.50,be:d8:74:47:f2:22,Red Hat Enterprise Linux 9,64,8,4096,Finance,Jacob Clark,development
+SRV-0301,human-resources-0301,10.195.205.26,b6:23:42:cb:ad:c3,Windows Server 2022,8,4,4096,Human Resources,Jessica Miranda,testing
+SRV-0302,development-0302,192.168.167.150,ae:e6:22:52:fe:ad,Windows Server 2022,8,1,2048,Development,Joseph Johnson,production
+SRV-0303,security-0303,10.98.251.79,ba:7c:90:80:d5:91,Windows Server 2019,2,32,4096,Security,James Smith,testing
+SRV-0304,support-0304,10.245.112.235,22:bd:da:de:d0:aa,Rocky Linux 9,32,32,64,Support,Christy Duran,production
+SRV-0305,finance-0305,172.26.105.172,12:03:a6:76:5e:f8,Red Hat Enterprise Linux 9,4,16,4096,Finance,Leslie Lee,production
+SRV-0306,sales-0306,172.24.207.61,ac:2f:83:af:72:03,Windows Server 2022,2,2,128,Sales,Rebecca James,development
+SRV-0307,sales-0307,192.168.231.133,00:c4:5f:f2:a4:66,Rocky Linux 9,32,4,4096,Sales,Rodney Chandler,testing
+SRV-0308,sales-0308,192.168.188.233,42:17:e2:bd:42:ea,Red Hat Enterprise Linux 9,32,32,2048,Sales,Jorge Carter,development
+SRV-0309,operations-0309,172.18.186.208,b8:2d:b6:40:e7:f3,Windows Server 2022,2,32,256,Operations,Shelly Jackson,testing
+SRV-0310,development-0310,10.177.47.207,f0:2e:a5:30:1b:c4,Debian 12,8,1,1024,Development,April Livingston,development
+SRV-0311,security-0311,172.26.40.50,f6:d8:d4:66:a1:d2,Red Hat Enterprise Linux 9,32,8,256,Security,Matthew James,production
+SRV-0312,it-0312,192.168.220.164,f8:7f:36:5d:a3:38,Windows Server 2022,64,16,1024,IT,Jody Johnson,staging
+SRV-0313,security-0313,192.168.90.109,0c:75:f2:74:08:45,Ubuntu Server 24.04,128,16,2048,Security,Gerald Bush,production
+SRV-0314,support-0314,192.168.20.144,6c:b5:96:1c:92:a8,Red Hat Enterprise Linux 9,32,32,256,Support,Anne Jones,testing
+SRV-0315,security-0315,172.28.82.66,f0:49:8e:02:9d:7b,Windows Server 2019,8,4,2048,Security,Glen Thompson,development
+SRV-0316,human-resources-0316,172.19.207.13,90:49:38:c4:11:22,Ubuntu Server 24.04,16,32,2048,Human Resources,Gary Padilla,staging
+SRV-0317,it-0317,10.42.92.249,10:69:f7:38:fd:d2,Debian 12,2,4,256,IT,Jennifer Hubbard,development
+SRV-0318,development-0318,172.23.161.245,e8:97:e1:05:2f:b2,Debian 12,64,4,128,Development,Sarah Vazquez,development
+SRV-0319,development-0319,172.20.189.89,c6:fc:21:c7:59:9e,Rocky Linux 9,16,8,512,Development,Jennifer Harris,production
+SRV-0320,sales-0320,172.30.1.170,ec:40:42:ba:33:93,Debian 12,16,8,1024,Sales,Michael Fleming,development
+SRV-0321,development-0321,10.229.141.44,c0:a0:eb:b3:13:4e,Debian 12,4,2,64,Development,James Richardson,production
+SRV-0322,it-0322,10.99.122.213,46:1d:7b:74:a6:41,Ubuntu Server 24.04,64,32,4096,IT,Patrick Aguilar,testing
+SRV-0323,it-0323,172.17.193.51,34:97:58:39:cf:38,Rocky Linux 9,64,16,128,IT,Robert Montgomery,testing
+SRV-0324,support-0324,172.27.61.47,2c:71:45:4c:24:a7,Rocky Linux 9,64,8,4096,Support,Sharon Russell,development
+SRV-0325,security-0325,172.24.51.183,68:bd:f9:dc:7e:67,Windows Server 2022,16,1,2048,Security,Mark Daniels,staging
+SRV-0326,support-0326,10.237.89.254,c0:26:10:d2:ec:d2,Windows Server 2019,16,32,128,Support,Sandra Herrera,staging
+SRV-0327,development-0327,172.24.78.243,34:5d:fc:c8:7b:38,Ubuntu Server 24.04,4,1,4096,Development,Michelle Nunez,testing
+SRV-0328,operations-0328,192.168.148.59,7a:14:53:74:95:07,Windows Server 2019,64,32,2048,Operations,Rachel Perez PhD,testing
+SRV-0329,support-0329,172.18.184.250,bc:cd:68:74:38:4e,Debian 12,32,8,64,Support,Alexis Sanders,testing
+SRV-0330,operations-0330,172.26.125.57,fc:bf:7d:52:78:db,Windows Server 2019,4,4,1024,Operations,Mindy Haley DDS,development
+SRV-0331,sales-0331,172.18.155.252,6a:fd:1c:cd:16:98,Windows Server 2022,32,4,256,Sales,Angela Blake,staging
+SRV-0332,finance-0332,10.84.156.242,4c:22:87:44:ee:93,Ubuntu Server 24.04,2,32,256,Finance,Anna Garrett,development
+SRV-0333,sales-0333,10.75.150.20,46:54:3b:5d:d7:1d,Windows Server 2019,16,1,256,Sales,Amber Luna,staging
+SRV-0334,development-0334,10.220.197.67,c8:78:ff:71:1b:9b,Windows Server 2022,16,32,2048,Development,Jessica Ford,staging
+SRV-0335,operations-0335,10.65.14.57,62:46:33:e6:1d:cb,Red Hat Enterprise Linux 9,4,1,256,Operations,Dr. Sean Martinez,production
+SRV-0336,sales-0336,192.168.232.248,36:0c:d5:25:5f:a4,Windows Server 2022,64,8,256,Sales,Thomas Cantu,testing
+SRV-0337,operations-0337,10.252.3.139,58:05:b9:1d:b5:03,Red Hat Enterprise Linux 9,16,8,128,Operations,Leslie Hill,testing
+SRV-0338,security-0338,192.168.143.45,98:74:8e:4a:7e:aa,Rocky Linux 9,64,2,64,Security,Mr. Andrew Gonzalez,production
+SRV-0339,development-0339,10.212.36.64,26:57:f1:92:f0:b7,Rocky Linux 9,64,1,1024,Development,Angela Mcdonald,testing
+SRV-0340,security-0340,172.31.0.205,82:8d:b3:ee:17:af,Windows Server 2022,64,4,4096,Security,Maria Sanchez,staging
+SRV-0341,human-resources-0341,10.40.61.14,5a:c8:41:a5:3a:78,Rocky Linux 9,8,8,256,Human Resources,Amanda Garcia,testing
+SRV-0342,finance-0342,192.168.12.27,64:04:9f:6b:53:90,Ubuntu Server 24.04,16,8,2048,Finance,William Walker,staging
+SRV-0343,sales-0343,192.168.121.243,78:6b:48:8b:e1:fa,Debian 12,4,4,256,Sales,Albert Cantrell,development
+SRV-0344,operations-0344,172.17.118.137,16:8b:36:4a:c1:77,Ubuntu Server 24.04,128,8,128,Operations,Daniel Villegas,production
+SRV-0345,development-0345,172.17.0.197,6c:61:31:07:42:97,Windows Server 2019,128,2,1024,Development,Dr. Jeanette Nguyen,production
+SRV-0346,support-0346,192.168.191.18,64:8e:34:70:a2:b4,Debian 12,128,16,128,Support,Megan Coleman,development
+SRV-0347,operations-0347,192.168.34.21,90:68:75:d9:dc:81,Debian 12,64,4,512,Operations,Aaron Carter,development
+SRV-0348,support-0348,10.105.233.112,2c:63:10:74:c9:f0,Ubuntu Server 24.04,16,2,512,Support,Brenda Williams,testing
+SRV-0349,it-0349,192.168.244.185,c2:10:3c:47:61:77,Debian 12,64,4,512,IT,Nichole Pitts,staging
+SRV-0350,development-0350,192.168.118.198,62:78:91:de:e3:18,Windows Server 2019,16,32,4096,Development,Tiffany Randall,testing
+SRV-0351,sales-0351,192.168.99.189,8e:11:a9:b5:c2:ac,Rocky Linux 9,32,1,64,Sales,Amber James,production
+SRV-0352,sales-0352,192.168.209.82,88:c8:83:5e:8c:d0,Windows Server 2019,2,16,4096,Sales,Renee Keith,testing
+SRV-0353,it-0353,172.18.188.105,ca:fe:41:64:71:2a,Ubuntu Server 24.04,4,2,512,IT,Robert Jones,development
+SRV-0354,security-0354,192.168.70.168,aa:5b:f4:ac:24:87,Windows Server 2019,128,1,128,Security,Craig Rose,staging
+SRV-0355,human-resources-0355,10.85.52.189,78:52:02:ac:7d:7c,Ubuntu Server 24.04,64,16,512,Human Resources,Chad Goodman,production
+SRV-0356,finance-0356,172.17.74.106,40:66:e5:13:73:16,Red Hat Enterprise Linux 9,32,1,1024,Finance,Austin Merritt,production
+SRV-0357,development-0357,172.19.12.150,96:84:25:91:9e:63,Red Hat Enterprise Linux 9,64,1,256,Development,Courtney Burke,testing
+SRV-0358,operations-0358,192.168.154.121,6a:0a:5c:5c:1f:47,Windows Server 2022,32,4,4096,Operations,Stephen Carlson,testing
+SRV-0359,support-0359,10.80.185.254,bc:6b:7d:91:5c:2f,Windows Server 2022,64,16,64,Support,Suzanne Soto,testing
+SRV-0360,support-0360,192.168.66.200,00:32:1d:1f:46:dc,Windows Server 2019,4,32,256,Support,Kimberly Gonzalez,development
+SRV-0361,development-0361,172.30.111.142,5c:0e:45:fc:e7:07,Rocky Linux 9,128,4,2048,Development,Patricia Newman,development
+SRV-0362,it-0362,172.25.77.77,48:ba:f7:01:e9:33,Rocky Linux 9,8,1,256,IT,Brian Bush,development
+SRV-0363,operations-0363,192.168.133.44,22:f2:4a:f9:69:3f,Windows Server 2019,32,2,128,Operations,Raymond Boyer,production
+SRV-0364,development-0364,10.148.171.183,52:b6:83:be:54:1e,Debian 12,128,8,2048,Development,Wendy Greene,staging
+SRV-0365,development-0365,172.18.29.217,fa:2c:85:4f:0c:99,Windows Server 2022,128,4,4096,Development,Cheyenne Henderson,production
+SRV-0366,finance-0366,172.28.106.61,1a:c6:5e:4a:41:3d,Windows Server 2022,2,8,1024,Finance,Victoria House,testing
+SRV-0367,finance-0367,192.168.172.201,48:fc:b6:b2:59:79,Ubuntu Server 24.04,128,2,512,Finance,Cynthia Cook,staging
+SRV-0368,support-0368,192.168.65.106,9a:72:f7:b0:a6:5b,Ubuntu Server 24.04,128,1,2048,Support,Jeremy Wolf,production
+SRV-0369,sales-0369,172.29.187.253,e2:8c:4d:6a:6f:a3,Rocky Linux 9,32,2,64,Sales,Ellen Davis,staging
+SRV-0370,security-0370,10.127.78.103,60:ca:c4:cf:91:db,Windows Server 2019,128,32,512,Security,Jeffrey Dawson,production
+SRV-0371,finance-0371,172.19.5.176,1a:c9:6b:b3:a5:c9,Windows Server 2022,8,8,1024,Finance,Stephanie Zamora,staging
+SRV-0372,human-resources-0372,10.164.131.223,9e:9b:5a:0d:05:36,Rocky Linux 9,128,16,512,Human Resources,Mariah Gonzalez,testing
+SRV-0373,it-0373,10.143.242.116,f0:d1:d3:22:71:d0,Debian 12,128,16,128,IT,Daniel Campbell,development
+SRV-0374,sales-0374,10.32.49.48,08:53:a5:1e:b4:2f,Ubuntu Server 24.04,64,8,512,Sales,Joshua Brown,staging
+SRV-0375,human-resources-0375,10.228.59.226,a8:f2:a6:d4:34:72,Rocky Linux 9,8,16,512,Human Resources,Amanda Munoz,production
+SRV-0376,support-0376,192.168.78.207,fc:40:66:94:d2:aa,Ubuntu Server 24.04,2,4,256,Support,Dylan Williams,development
+SRV-0377,finance-0377,192.168.82.16,ac:07:d7:98:ad:61,Windows Server 2019,16,2,128,Finance,Donna House,staging
+SRV-0378,sales-0378,10.227.241.20,ec:53:70:97:51:1a,Rocky Linux 9,128,4,512,Sales,Paula Contreras,development
+SRV-0379,support-0379,192.168.87.233,36:d1:d5:4e:82:96,Ubuntu Server 24.04,2,1,1024,Support,Darlene Austin,production
+SRV-0380,development-0380,192.168.159.150,c8:b0:2f:1d:bf:7c,Red Hat Enterprise Linux 9,32,16,1024,Development,Renee Smith,staging
+SRV-0381,development-0381,172.27.129.96,54:15:f2:9a:ac:4d,Windows Server 2022,32,16,512,Development,Brian Davis,development
+SRV-0382,development-0382,192.168.234.169,e4:e6:6b:7f:ee:a9,Red Hat Enterprise Linux 9,2,8,1024,Development,Jon Roach,staging
+SRV-0383,it-0383,10.247.233.158,40:40:78:63:89:67,Ubuntu Server 24.04,8,1,1024,IT,Chad Brown,development
+SRV-0384,sales-0384,10.62.148.32,a2:1f:03:67:1f:96,Windows Server 2019,32,4,256,Sales,Ashley Mercer,staging
+SRV-0385,operations-0385,10.49.148.240,40:ae:c2:96:2b:c1,Windows Server 2019,128,32,64,Operations,Jessica Whitney,production
+SRV-0386,it-0386,192.168.72.228,c0:60:3b:b4:0a:5e,Windows Server 2022,16,4,1024,IT,April Evans,production
+SRV-0387,security-0387,10.130.214.89,b6:20:e3:bf:d9:5a,Ubuntu Server 24.04,4,4,4096,Security,Sarah Kelley,staging
+SRV-0388,support-0388,172.18.117.42,b8:6f:f7:58:68:24,Ubuntu Server 24.04,128,1,512,Support,Jill Watson,development
+SRV-0389,finance-0389,192.168.165.73,ce:87:e4:2c:74:90,Windows Server 2022,32,32,128,Finance,Lynn Bates,staging
+SRV-0390,operations-0390,10.184.164.25,d0:22:55:a7:17:3d,Rocky Linux 9,128,8,128,Operations,Joshua Pena,testing
+SRV-0391,it-0391,192.168.188.219,ec:e8:b7:12:5c:15,Red Hat Enterprise Linux 9,16,8,64,IT,Matthew Gentry,development
+SRV-0392,human-resources-0392,10.120.254.63,34:cc:dd:0d:38:aa,Debian 12,16,32,2048,Human Resources,Patty Hicks,production
+SRV-0393,finance-0393,10.104.199.97,1c:27:21:6e:1d:53,Debian 12,32,32,256,Finance,Michael Mckenzie,testing
+SRV-0394,support-0394,192.168.44.23,66:55:19:06:05:7f,Red Hat Enterprise Linux 9,64,4,128,Support,Emily Peters,testing
+SRV-0395,it-0395,172.22.0.126,e6:21:60:84:e1:48,Windows Server 2019,8,1,2048,IT,Daniel Moore,production
+SRV-0396,security-0396,10.244.51.201,d2:59:c7:6c:7e:0c,Red Hat Enterprise Linux 9,8,32,2048,Security,Matthew Gaines,staging
+SRV-0397,support-0397,10.200.22.209,40:9a:b1:37:e4:20,Debian 12,16,2,128,Support,Sarah Spencer,staging
+SRV-0398,security-0398,172.28.199.121,60:47:75:96:64:4a,Red Hat Enterprise Linux 9,64,4,256,Security,Melissa Bishop,staging
+SRV-0399,operations-0399,10.11.20.194,84:a1:4a:5f:9b:ad,Debian 12,2,16,1024,Operations,Sarah Mitchell,production
+SRV-0400,human-resources-0400,192.168.110.96,9a:ca:f5:a1:e8:4e,Windows Server 2019,128,32,64,Human Resources,Amy Pruitt,development
+SRV-0401,human-resources-0401,10.73.106.191,bc:61:ba:96:29:65,Windows Server 2022,4,16,128,Human Resources,Steven Herrera,staging
+SRV-0402,finance-0402,192.168.140.37,e8:cd:a6:fe:59:ec,Rocky Linux 9,64,1,4096,Finance,Laura Simpson,testing
+SRV-0403,security-0403,192.168.139.28,72:2f:3c:47:f3:50,Ubuntu Server 24.04,32,32,1024,Security,Brandon Davis,production
+SRV-0404,it-0404,172.17.122.182,54:70:a4:cb:0a:b0,Debian 12,32,32,1024,IT,Anthony Smith,development
+SRV-0405,human-resources-0405,172.19.93.203,90:3e:20:cd:50:af,Debian 12,32,2,512,Human Resources,Eric Jacobs,staging
+SRV-0406,sales-0406,192.168.50.225,be:31:fe:f0:0f:17,Debian 12,8,32,512,Sales,Alexander Jenkins,production
+SRV-0407,support-0407,10.97.104.168,c4:6d:2c:b4:91:ee,Windows Server 2022,32,2,2048,Support,Victor Brooks,development
+SRV-0408,development-0408,10.80.121.133,d6:f6:d3:b6:f3:6b,Debian 12,4,32,512,Development,Troy Rodriguez,testing
+SRV-0409,human-resources-0409,10.33.27.210,b8:b8:e9:74:77:52,Debian 12,4,1,1024,Human Resources,Steven Hill,testing
+SRV-0410,finance-0410,10.79.248.63,24:00:cd:c1:74:06,Debian 12,2,2,2048,Finance,Amy Taylor,testing
+SRV-0411,finance-0411,192.168.53.220,b6:96:58:1d:95:ba,Windows Server 2022,2,2,64,Finance,Beverly Jordan,staging
+SRV-0412,security-0412,10.168.172.200,c6:39:d1:f1:7c:4e,Windows Server 2019,8,2,256,Security,Anna Welch,testing
+SRV-0413,development-0413,10.49.43.91,38:40:55:8e:1c:29,Windows Server 2019,32,1,512,Development,Shaun Pineda,testing
+SRV-0414,support-0414,10.41.82.189,a0:c3:d7:bd:c1:0a,Windows Server 2019,4,1,2048,Support,Daniel Miller,production
+SRV-0415,finance-0415,192.168.255.29,1a:cd:d1:1c:00:14,Rocky Linux 9,8,8,512,Finance,Stephanie Ayala,testing
+SRV-0416,security-0416,172.21.53.121,f2:58:b0:3a:aa:33,Ubuntu Server 24.04,16,4,4096,Security,Christina Rios,development
+SRV-0417,sales-0417,172.25.70.105,1c:db:ec:a5:ff:4b,Red Hat Enterprise Linux 9,64,2,2048,Sales,Ronald Kennedy,staging
+SRV-0418,human-resources-0418,172.26.81.182,c0:45:ce:e1:79:95,Rocky Linux 9,32,2,256,Human Resources,Barbara Perez,development
+SRV-0419,security-0419,192.168.221.21,02:30:56:ee:75:81,Windows Server 2022,4,16,128,Security,Joshua Stevens,development
+SRV-0420,it-0420,192.168.140.78,c6:e4:90:60:91:7e,Red Hat Enterprise Linux 9,64,8,1024,IT,Denise Davis,testing
+SRV-0421,human-resources-0421,192.168.59.211,54:49:3b:f9:de:58,Red Hat Enterprise Linux 9,128,8,256,Human Resources,Sandra Leonard,production
+SRV-0422,development-0422,10.171.249.195,dc:b5:da:4b:0a:2a,Rocky Linux 9,128,32,2048,Development,Samantha Webb,development
+SRV-0423,support-0423,192.168.100.120,42:fb:d4:ea:df:f2,Red Hat Enterprise Linux 9,4,4,1024,Support,Randy Anderson,development
+SRV-0424,development-0424,10.97.134.55,9c:3f:72:1b:67:39,Debian 12,32,4,64,Development,Wendy Turner,production
+SRV-0425,sales-0425,10.249.96.98,7e:1c:54:8b:46:ba,Ubuntu Server 24.04,64,1,2048,Sales,Jeff Marshall,staging
+SRV-0426,finance-0426,172.22.214.113,ae:09:c8:4d:ac:66,Ubuntu Server 24.04,2,1,64,Finance,Ann Herman,production
+SRV-0427,operations-0427,10.142.128.48,a0:ac:1a:2f:60:6d,Windows Server 2019,2,16,4096,Operations,Joseph Crane,staging
+SRV-0428,it-0428,192.168.98.133,70:87:66:de:a1:9d,Windows Server 2019,32,16,1024,IT,Robert Holt,staging
+SRV-0429,operations-0429,172.21.213.200,f0:14:a2:98:6d:b0,Rocky Linux 9,64,4,128,Operations,Joseph Cox,testing
+SRV-0430,operations-0430,10.143.47.225,ac:f1:9b:fe:e1:01,Windows Server 2019,8,1,256,Operations,Tina Henderson,production
+SRV-0431,finance-0431,192.168.125.242,8a:75:37:f5:15:2d,Rocky Linux 9,16,1,2048,Finance,Michael Chang,staging
+SRV-0432,human-resources-0432,192.168.203.74,14:b8:4b:62:a9:e9,Rocky Linux 9,4,16,64,Human Resources,Joshua Anderson,testing
+SRV-0433,finance-0433,172.29.231.223,a2:26:37:a4:1a:f7,Red Hat Enterprise Linux 9,4,1,256,Finance,Debbie Andrews,testing
+SRV-0434,human-resources-0434,172.29.143.7,90:b9:94:a3:55:cb,Windows Server 2022,8,16,128,Human Resources,Megan Sheppard,development
+SRV-0435,security-0435,192.168.225.57,c0:fe:0d:33:42:1f,Red Hat Enterprise Linux 9,4,8,1024,Security,Margaret White,staging
+SRV-0436,finance-0436,10.151.162.219,5e:28:1f:1c:78:62,Debian 12,32,2,1024,Finance,Tamara Guzman,production
+SRV-0437,security-0437,192.168.57.72,82:50:9f:e5:5a:b0,Red Hat Enterprise Linux 9,32,8,256,Security,Paul Hahn,production
+SRV-0438,security-0438,172.31.252.155,38:cb:5f:3c:2c:99,Debian 12,64,1,256,Security,Jennifer Day,staging
+SRV-0439,development-0439,10.73.63.176,32:ff:11:ca:f5:4b,Windows Server 2022,64,32,256,Development,Bryan Vazquez,production
+SRV-0440,security-0440,172.25.238.119,cc:14:2d:3e:6b:88,Windows Server 2019,2,1,256,Security,Erica Green,development
+SRV-0441,support-0441,10.103.218.40,de:71:9b:3b:45:fa,Red Hat Enterprise Linux 9,2,8,1024,Support,Patrick Vasquez,production
+SRV-0442,it-0442,172.28.89.177,aa:31:9e:20:98:de,Rocky Linux 9,2,4,256,IT,Steven Diaz,testing
+SRV-0443,finance-0443,192.168.166.210,42:c5:34:08:c2:18,Debian 12,64,16,4096,Finance,Seth Knox,development
+SRV-0444,sales-0444,172.29.114.216,b2:0b:2d:39:c3:25,Debian 12,8,4,128,Sales,Patricia Pacheco,production
+SRV-0445,finance-0445,192.168.200.112,80:19:1b:67:d3:d6,Debian 12,128,4,256,Finance,Gordon Elliott,testing
+SRV-0446,security-0446,172.28.134.225,ec:91:24:7e:fb:79,Debian 12,16,32,4096,Security,Donald Moon,testing
+SRV-0447,development-0447,10.194.21.208,96:b4:c0:5d:02:22,Debian 12,16,16,1024,Development,Joshua Flores,production
+SRV-0448,it-0448,172.16.45.247,44:a4:73:27:91:77,Windows Server 2022,4,16,4096,IT,Sophia Moore,development
+SRV-0449,development-0449,10.97.220.251,16:2b:e6:af:7c:ad,Ubuntu Server 24.04,128,8,2048,Development,Jessica Singh,development
+SRV-0450,support-0450,10.35.62.97,b6:ec:2f:08:04:9a,Rocky Linux 9,128,16,256,Support,Bridget Downs,testing
+SRV-0451,finance-0451,192.168.12.40,18:72:1c:78:b6:7f,Rocky Linux 9,2,4,1024,Finance,Amanda Brooks,development
+SRV-0452,support-0452,192.168.79.201,1a:42:61:b3:66:9f,Ubuntu Server 24.04,2,32,256,Support,Matthew Morris,production
+SRV-0453,operations-0453,10.241.223.12,26:f2:02:79:9c:6e,Ubuntu Server 24.04,128,8,128,Operations,Linda Hunt,staging
+SRV-0454,finance-0454,10.246.234.219,92:92:70:1e:7f:36,Red Hat Enterprise Linux 9,2,4,64,Finance,Christopher Conley,testing
+SRV-0455,sales-0455,10.11.81.251,f0:25:df:db:cd:1a,Rocky Linux 9,64,2,128,Sales,Brittany Mcfarland,production
+SRV-0456,development-0456,10.166.13.112,b2:cc:8c:ad:12:8c,Windows Server 2019,64,8,4096,Development,Mr. Timothy Curry,testing
+SRV-0457,support-0457,172.16.48.244,d2:6e:eb:40:de:1a,Windows Server 2022,16,16,2048,Support,Erin Klein,production
+SRV-0458,support-0458,172.23.183.179,ba:7f:a3:08:41:3b,Rocky Linux 9,64,1,1024,Support,Brian Wilson,testing
+SRV-0459,it-0459,10.48.48.211,c4:b8:49:f4:ea:ed,Ubuntu Server 24.04,16,1,256,IT,Ariel Reed,staging
+SRV-0460,security-0460,192.168.77.113,d6:14:c3:a4:f5:1d,Windows Server 2019,8,4,4096,Security,Deborah Clark,development
+SRV-0461,support-0461,192.168.94.193,16:b4:46:c8:0c:a6,Red Hat Enterprise Linux 9,16,32,512,Support,Dwayne Cochran,staging
+SRV-0462,it-0462,172.24.162.75,12:be:fb:68:66:db,Debian 12,32,32,2048,IT,Adam Glass,staging
+SRV-0463,support-0463,172.19.148.142,f4:eb:00:d8:51:c6,Windows Server 2019,2,4,128,Support,Holly Diaz,production
+SRV-0464,finance-0464,172.17.212.133,60:24:b4:fd:2b:52,Red Hat Enterprise Linux 9,128,16,256,Finance,Michael Smith,testing
+SRV-0465,it-0465,10.108.112.203,fc:d4:86:f3:f0:43,Ubuntu Server 24.04,32,32,2048,IT,Cindy Oconnor,staging
+SRV-0466,development-0466,192.168.251.206,4a:4b:7a:0d:57:46,Windows Server 2022,8,2,1024,Development,Cody Fisher,development
+SRV-0467,development-0467,10.196.19.251,28:39:56:70:dd:d1,Red Hat Enterprise Linux 9,32,8,512,Development,Christina Fox,testing
+SRV-0468,human-resources-0468,10.123.132.168,7c:26:bd:3f:2d:38,Windows Server 2019,128,8,512,Human Resources,Ernest Taylor,testing
+SRV-0469,sales-0469,192.168.157.15,58:cf:3b:5f:e9:ef,Windows Server 2019,64,1,512,Sales,Courtney Walker,production
+SRV-0470,development-0470,192.168.180.232,ac:cf:0b:58:2c:cb,Rocky Linux 9,8,16,2048,Development,Laura Hernandez,testing
+SRV-0471,security-0471,10.253.148.200,f0:5c:7c:92:80:67,Windows Server 2019,32,2,512,Security,Julie Garza,testing
+SRV-0472,operations-0472,192.168.1.217,14:13:45:bd:1d:9a,Windows Server 2022,128,4,128,Operations,Robert Garrett,development
+SRV-0473,security-0473,10.205.204.164,76:e6:b0:18:06:de,Debian 12,16,2,4096,Security,Jennifer Noble,testing
+SRV-0474,finance-0474,192.168.185.218,9e:6d:15:34:fc:9c,Red Hat Enterprise Linux 9,4,4,2048,Finance,Catherine Allen,production
+SRV-0475,development-0475,192.168.171.137,06:23:ef:43:c5:c7,Ubuntu Server 24.04,2,8,256,Development,Michael Wong,development
+SRV-0476,security-0476,10.124.101.141,5a:8d:78:b3:d7:98,Windows Server 2019,2,1,512,Security,Wendy Brown,testing
+SRV-0477,support-0477,192.168.168.229,74:d4:94:3f:e3:c7,Rocky Linux 9,16,8,2048,Support,Taylor Brown,testing
+SRV-0478,security-0478,172.17.64.15,30:af:04:1b:25:cb,Windows Server 2022,2,16,512,Security,Timothy Rogers,testing
+SRV-0479,support-0479,192.168.121.39,ac:7b:15:d5:d5:c6,Ubuntu Server 24.04,32,4,4096,Support,Lindsey Hunter,development
+SRV-0480,it-0480,172.28.234.107,22:b4:d5:3e:25:04,Red Hat Enterprise Linux 9,4,1,64,IT,Aaron Lee,testing
+SRV-0481,development-0481,10.215.204.94,16:57:59:b0:20:e3,Windows Server 2019,128,1,128,Development,Jennifer Lam,production
+SRV-0482,it-0482,192.168.90.48,26:ff:b2:b5:b8:52,Windows Server 2022,16,16,256,IT,Margaret Gonzales,development
+SRV-0483,development-0483,192.168.170.205,3a:9d:c1:2f:98:51,Ubuntu Server 24.04,4,1,2048,Development,Haley Wright,production
+SRV-0484,security-0484,10.144.124.24,ae:be:f0:de:38:16,Windows Server 2019,64,4,128,Security,Renee Patel,testing
+SRV-0485,operations-0485,192.168.116.161,54:74:21:4b:f6:83,Red Hat Enterprise Linux 9,16,16,1024,Operations,Matthew Garcia,production
+SRV-0486,security-0486,192.168.45.178,5a:71:09:a0:dd:b9,Debian 12,8,1,1024,Security,Joy Hall DDS,testing
+SRV-0487,development-0487,10.21.68.190,c4:c4:ec:1c:76:38,Debian 12,64,16,256,Development,Wesley Rodriguez,staging
+SRV-0488,sales-0488,10.208.40.236,f0:c0:93:cd:fd:c0,Ubuntu Server 24.04,2,8,2048,Sales,David Alvarez,staging
+SRV-0489,operations-0489,172.31.24.221,bc:d4:c9:5c:54:19,Windows Server 2022,4,32,1024,Operations,Lisa Walker,production
+SRV-0490,human-resources-0490,10.215.94.246,22:1d:f7:68:2c:67,Windows Server 2022,128,32,64,Human Resources,Jo Weaver,development
+SRV-0491,it-0491,192.168.123.249,0e:2f:65:55:7b:be,Ubuntu Server 24.04,32,2,256,IT,Henry Myers,development
+SRV-0492,security-0492,10.25.119.27,da:71:67:17:3d:3c,Debian 12,128,32,1024,Security,Mr. Daniel Bowen DVM,testing
+SRV-0493,operations-0493,10.206.25.2,d8:e2:1a:b9:73:38,Rocky Linux 9,16,32,64,Operations,Matthew Carlson,testing
+SRV-0494,support-0494,10.188.25.91,c6:c5:fe:b5:32:55,Rocky Linux 9,64,2,4096,Support,Donna Owens,testing
+SRV-0495,development-0495,10.86.70.13,8e:2b:60:50:ac:13,Windows Server 2022,128,2,4096,Development,Aaron Williams,testing
+SRV-0496,operations-0496,192.168.155.133,12:4e:a0:9b:7f:b8,Windows Server 2019,32,1,256,Operations,Chelsea Johnson,production
+SRV-0497,finance-0497,172.25.49.33,e8:b8:aa:a7:94:f7,Windows Server 2022,16,32,4096,Finance,Richard Martin,testing
+SRV-0498,security-0498,10.167.1.36,8c:d1:ea:e4:51:ea,Ubuntu Server 24.04,32,4,1024,Security,Elizabeth Oliver,production
+SRV-0499,operations-0499,172.20.136.116,0c:39:8a:4f:89:ee,Rocky Linux 9,64,2,256,Operations,Keith Hart,production
+SRV-0500,sales-0500,10.173.124.85,46:fa:88:18:9b:2c,Rocky Linux 9,16,16,256,Sales,Roger Ryan,development
+SRV-0501,support-0501,172.25.42.185,4e:12:5d:27:64:46,Red Hat Enterprise Linux 9,16,4,64,Support,Emily Mathews,development
+SRV-0502,security-0502,172.18.223.92,18:1e:c8:bd:77:2f,Rocky Linux 9,32,32,4096,Security,Christopher Martin,development
+SRV-0503,it-0503,172.25.145.6,08:27:1f:a0:a2:d6,Debian 12,128,4,4096,IT,Kimberly Stewart,development
+SRV-0504,development-0504,192.168.81.75,b8:4c:4f:03:b8:7d,Windows Server 2022,4,16,1024,Development,Danielle Rodriguez,staging
+SRV-0505,security-0505,10.17.243.98,a2:eb:98:61:8f:0c,Debian 12,2,2,64,Security,Nicole Ryan,production
+SRV-0506,sales-0506,10.37.215.89,c6:b6:45:32:37:b7,Windows Server 2019,2,8,1024,Sales,Walter Ellison,production
+SRV-0507,sales-0507,172.17.44.234,d4:2c:c1:3d:77:bf,Windows Server 2019,2,16,256,Sales,Jamie Nielsen,testing
+SRV-0508,it-0508,10.40.108.202,c2:89:37:8a:28:9b,Red Hat Enterprise Linux 9,2,32,64,IT,Jason Chen,production
+SRV-0509,support-0509,192.168.102.16,44:00:f6:fe:ab:15,Debian 12,128,32,512,Support,Casey Parker,testing
+SRV-0510,sales-0510,192.168.198.74,74:3a:36:8c:18:26,Rocky Linux 9,8,16,4096,Sales,Michael Elliott,staging
+SRV-0511,sales-0511,172.26.229.3,ba:b6:8d:a9:4e:d2,Windows Server 2022,128,16,4096,Sales,Laura Murray,development
+SRV-0512,human-resources-0512,10.142.251.187,0a:8c:32:0d:c2:1f,Windows Server 2022,64,2,1024,Human Resources,James Graham,development
+SRV-0513,sales-0513,192.168.225.23,c0:9f:ea:b5:1e:4e,Windows Server 2022,4,4,1024,Sales,Kevin Montgomery,testing
+SRV-0514,human-resources-0514,192.168.245.209,50:a0:7e:e9:64:11,Windows Server 2019,128,2,512,Human Resources,Sharon Burke,testing
+SRV-0515,development-0515,10.39.248.18,78:d1:57:89:8b:7d,Debian 12,8,2,128,Development,Mark Ellis,development
+SRV-0516,finance-0516,10.202.197.222,40:37:26:fa:6c:d8,Red Hat Enterprise Linux 9,64,2,512,Finance,Bridget Hicks,staging
+SRV-0517,development-0517,10.185.158.247,3c:13:61:b5:6b:6a,Red Hat Enterprise Linux 9,4,2,256,Development,Jennifer Vincent,testing
+SRV-0518,support-0518,10.197.246.170,46:d7:0a:27:e7:70,Rocky Linux 9,4,8,128,Support,Robert Barnes,staging
+SRV-0519,finance-0519,10.28.40.95,7a:a4:68:6e:10:1a,Rocky Linux 9,2,4,4096,Finance,Angelica Warren,development
+SRV-0520,finance-0520,172.26.153.194,c8:56:1d:1d:57:5f,Windows Server 2022,64,16,1024,Finance,Rachel Oconnor,development
+SRV-0521,security-0521,192.168.158.42,2c:1b:47:14:8a:fb,Red Hat Enterprise Linux 9,2,32,1024,Security,Michael Greene,production
+SRV-0522,support-0522,192.168.217.94,d4:fb:a5:34:d2:a0,Rocky Linux 9,2,8,64,Support,Jason Ramos,development
+SRV-0523,it-0523,192.168.94.72,f2:5f:14:94:3b:b1,Red Hat Enterprise Linux 9,32,8,2048,IT,Kari Schaefer,testing
+SRV-0524,support-0524,192.168.69.117,18:96:3d:42:93:3c,Red Hat Enterprise Linux 9,8,16,4096,Support,Andrew Benton,production
+SRV-0525,finance-0525,10.89.242.198,b6:26:a7:54:a5:4a,Ubuntu Server 24.04,16,4,256,Finance,Gilbert Barnett,development
+SRV-0526,sales-0526,192.168.254.250,1a:a2:a1:7b:77:86,Rocky Linux 9,8,16,1024,Sales,Mark Friedman,production
+SRV-0527,development-0527,192.168.216.136,ca:77:a6:97:01:e0,Debian 12,64,16,512,Development,James Hall,development
+SRV-0528,support-0528,172.23.171.223,2a:ca:a9:a5:e5:8e,Debian 12,16,8,128,Support,Daniel Smith,testing
+SRV-0529,development-0529,172.19.74.0,c6:f3:56:f9:09:da,Ubuntu Server 24.04,64,1,4096,Development,Steven Rivera,testing
+SRV-0530,finance-0530,172.25.97.74,84:e1:36:a0:84:59,Windows Server 2022,8,1,4096,Finance,William Carter,development
+SRV-0531,it-0531,172.29.40.63,4a:ea:19:7c:01:e7,Red Hat Enterprise Linux 9,128,8,1024,IT,Laura Davis,development
+SRV-0532,development-0532,172.16.237.32,30:e0:84:9e:70:da,Debian 12,4,8,128,Development,Rebecca Ramsey,development
+SRV-0533,it-0533,10.57.250.41,e4:35:d0:e3:7f:5b,Red Hat Enterprise Linux 9,16,8,128,IT,Stephen Allen,staging
+SRV-0534,finance-0534,10.117.171.235,ea:0b:90:f1:bb:6c,Rocky Linux 9,128,1,512,Finance,Jason Hansen,production
+SRV-0535,human-resources-0535,10.101.40.174,4c:99:f7:15:20:de,Debian 12,4,2,128,Human Resources,Juan Jackson,staging
+SRV-0536,human-resources-0536,192.168.75.4,ca:50:15:81:0f:0c,Windows Server 2019,64,8,4096,Human Resources,Jessica Whitaker,testing
+SRV-0537,development-0537,172.23.69.206,a8:55:9a:36:d2:63,Ubuntu Server 24.04,2,2,512,Development,Scott Schwartz,development
+SRV-0538,sales-0538,192.168.129.28,0a:67:59:03:d5:48,Windows Server 2019,32,1,1024,Sales,Donna Cameron,development
+SRV-0539,sales-0539,10.234.145.112,e8:c4:4d:fe:7c:74,Rocky Linux 9,32,2,128,Sales,Steven Mcbride,development
+SRV-0540,operations-0540,172.28.222.39,90:69:00:5d:4a:92,Windows Server 2019,16,1,64,Operations,Michael Todd,development
+SRV-0541,it-0541,10.46.3.70,ba:6f:8e:42:d7:1c,Red Hat Enterprise Linux 9,64,32,2048,IT,Mary Holder,testing
+SRV-0542,human-resources-0542,10.169.19.233,98:1e:c5:e7:7a:91,Rocky Linux 9,64,8,64,Human Resources,Kevin Gilmore,production
+SRV-0543,it-0543,172.30.5.78,4e:46:37:7a:06:ea,Red Hat Enterprise Linux 9,4,32,256,IT,Toni Vasquez,staging
+SRV-0544,development-0544,10.20.250.73,7a:37:af:42:53:9b,Debian 12,64,16,256,Development,Robert Green,development
+SRV-0545,development-0545,10.41.125.80,32:97:c7:db:12:e0,Red Hat Enterprise Linux 9,4,2,512,Development,Garrett Wood,staging
+SRV-0546,development-0546,10.151.59.222,50:01:d9:21:89:89,Windows Server 2022,16,16,64,Development,Jason Hardy,staging
+SRV-0547,development-0547,192.168.135.98,22:4d:84:db:cc:be,Debian 12,4,4,256,Development,Billy Atkins,testing
+SRV-0548,development-0548,172.28.97.224,3a:5e:da:28:cb:f0,Windows Server 2019,128,32,64,Development,Michael Knox,testing
+SRV-0549,sales-0549,172.22.206.84,98:7d:f9:c6:40:98,Windows Server 2022,128,32,64,Sales,Tina Griffith,testing
+SRV-0550,finance-0550,10.89.136.168,6e:24:1d:06:42:8a,Windows Server 2019,128,2,2048,Finance,Hannah Webster,staging
+SRV-0551,development-0551,172.28.150.186,e6:99:3a:d6:2e:c7,Windows Server 2019,128,8,128,Development,Jennifer Bennett,testing
+SRV-0552,support-0552,192.168.98.22,9a:f5:ac:cc:4e:f6,Ubuntu Server 24.04,2,8,128,Support,David Bennett,staging
+SRV-0553,support-0553,10.0.200.39,66:fd:8b:9e:79:ce,Windows Server 2022,16,16,2048,Support,Joseph Farmer,production
+SRV-0554,it-0554,10.57.18.240,c4:31:c6:0e:1f:3d,Windows Server 2022,2,2,128,IT,Elizabeth Booth,development
+SRV-0555,human-resources-0555,10.234.118.108,ba:11:46:a0:04:04,Windows Server 2019,2,32,512,Human Resources,Jeremy Haynes,development
+SRV-0556,security-0556,172.31.25.85,0a:4e:f8:bb:11:7b,Windows Server 2022,16,16,4096,Security,Joshua Smith,development
+SRV-0557,sales-0557,10.43.65.197,c2:75:6a:a1:8b:98,Windows Server 2022,2,2,128,Sales,Daniel Maddox,development
+SRV-0558,operations-0558,10.30.151.241,32:e1:ab:70:f5:72,Windows Server 2022,8,8,1024,Operations,Mark Mitchell,production
+SRV-0559,finance-0559,172.19.144.82,7a:e4:f2:40:fa:cc,Red Hat Enterprise Linux 9,4,8,256,Finance,Jennifer Bolton,development
+SRV-0560,support-0560,192.168.70.103,c0:24:f1:e9:aa:b1,Windows Server 2019,32,16,1024,Support,Mackenzie Kidd,development
+SRV-0561,operations-0561,192.168.207.253,9e:a3:d0:4d:64:69,Windows Server 2022,8,2,64,Operations,Tiffany Maldonado,testing
+SRV-0562,sales-0562,192.168.54.245,7a:f7:2e:33:fd:b7,Windows Server 2022,128,2,512,Sales,Anthony Martin,staging
+SRV-0563,development-0563,192.168.114.186,7a:87:e3:ed:6e:f8,Rocky Linux 9,16,16,512,Development,Jill Cole,testing
+SRV-0564,finance-0564,172.16.147.144,58:0b:85:b0:1e:d9,Ubuntu Server 24.04,64,32,2048,Finance,Jennifer Garcia DDS,development
+SRV-0565,human-resources-0565,10.154.59.210,18:d7:c3:52:52:ff,Windows Server 2019,4,2,1024,Human Resources,Miss Deanna Parrish MD,testing
+SRV-0566,human-resources-0566,172.19.220.120,a6:bc:5d:c9:8c:65,Rocky Linux 9,4,1,256,Human Resources,Hannah Francis,development
+SRV-0567,security-0567,10.158.19.246,86:53:d4:7a:76:24,Red Hat Enterprise Linux 9,2,1,128,Security,John Gutierrez,production
+SRV-0568,human-resources-0568,172.18.154.7,7c:11:cb:10:d0:85,Windows Server 2022,8,2,128,Human Resources,Karla Grant,testing
+SRV-0569,it-0569,172.29.141.159,7c:8b:2a:ff:8d:a4,Ubuntu Server 24.04,2,32,256,IT,Wendy Jenkins,production
+SRV-0570,operations-0570,10.130.64.173,0a:9b:fc:02:12:d9,Debian 12,2,32,512,Operations,Ana Johnson,production
+SRV-0571,operations-0571,192.168.243.3,e2:76:28:c7:8b:f5,Red Hat Enterprise Linux 9,32,8,512,Operations,Jennifer Hogan,production
+SRV-0572,support-0572,192.168.220.189,4a:d8:40:24:8e:c7,Windows Server 2019,128,8,128,Support,Judy Chapman,development
+SRV-0573,human-resources-0573,192.168.22.145,5c:fc:c9:84:19:b1,Debian 12,4,16,2048,Human Resources,Teresa Rice,development
+SRV-0574,development-0574,172.16.231.242,42:c7:94:b5:b0:ec,Ubuntu Server 24.04,128,4,1024,Development,Christian Krause,production
+SRV-0575,support-0575,192.168.128.22,46:be:f9:25:5a:ea,Ubuntu Server 24.04,8,16,1024,Support,Rebecca Howard,production
+SRV-0576,finance-0576,10.133.223.222,ca:5a:9b:19:8c:f6,Red Hat Enterprise Linux 9,128,32,2048,Finance,Carlos Craig,staging
+SRV-0577,sales-0577,10.181.156.206,10:45:aa:6a:4d:bd,Windows Server 2022,64,2,2048,Sales,David Kaufman,development
+SRV-0578,finance-0578,172.19.18.148,2e:d4:ef:e9:dc:dd,Windows Server 2022,2,2,1024,Finance,Adriana Oneal,production
+SRV-0579,it-0579,192.168.171.138,8a:eb:e8:18:a0:55,Rocky Linux 9,8,1,4096,IT,Michael Green,testing
+SRV-0580,development-0580,192.168.130.188,9c:fd:8e:8f:81:0e,Red Hat Enterprise Linux 9,4,8,256,Development,Jared Hubbard,development
+SRV-0581,development-0581,192.168.72.8,26:ab:19:ae:cf:71,Debian 12,64,2,2048,Development,Robin White,staging
+SRV-0582,sales-0582,10.190.185.24,da:8c:3b:9a:25:c8,Debian 12,4,8,2048,Sales,Michael Johnson,production
+SRV-0583,operations-0583,10.227.92.71,d6:ed:fe:40:99:0c,Rocky Linux 9,32,4,128,Operations,Nicholas Mcconnell,production
+SRV-0584,human-resources-0584,192.168.133.75,fc:56:b5:9a:0c:e3,Red Hat Enterprise Linux 9,2,16,2048,Human Resources,Shannon Haynes,staging
+SRV-0585,security-0585,10.131.165.235,1c:a0:c8:1f:65:27,Windows Server 2019,2,2,1024,Security,William Harris,testing
+SRV-0586,sales-0586,10.9.142.233,58:a6:07:83:d6:4b,Debian 12,32,4,256,Sales,John White,development
+SRV-0587,sales-0587,192.168.148.209,c4:df:e3:26:1c:f5,Red Hat Enterprise Linux 9,64,32,512,Sales,Lori Fernandez,testing
+SRV-0588,sales-0588,172.28.219.96,2e:78:6a:e1:34:65,Rocky Linux 9,8,1,512,Sales,Andrew Reese,testing
+SRV-0589,operations-0589,192.168.221.38,b0:1c:f6:55:e7:2a,Windows Server 2022,2,32,512,Operations,Alejandro Gallegos,development
+SRV-0590,it-0590,10.121.113.227,5e:40:5f:01:b1:8f,Red Hat Enterprise Linux 9,2,1,256,IT,Michael Lane,production
+SRV-0591,security-0591,172.22.12.114,04:84:1f:d8:71:c5,Ubuntu Server 24.04,64,32,512,Security,Brenda Harris,production
+SRV-0592,operations-0592,10.92.79.242,16:32:b2:8b:71:9c,Debian 12,128,32,2048,Operations,Katherine Dalton,production
+SRV-0593,operations-0593,172.16.7.235,88:ac:b3:f5:a3:aa,Windows Server 2019,16,2,128,Operations,David Mcdonald,testing
+SRV-0594,security-0594,10.101.217.193,e2:56:21:22:ed:da,Rocky Linux 9,64,8,512,Security,Christina Ward,testing
+SRV-0595,human-resources-0595,10.130.23.159,46:07:84:e3:48:56,Red Hat Enterprise Linux 9,4,2,256,Human Resources,Brent Mayo,staging
+SRV-0596,human-resources-0596,172.29.202.113,aa:39:13:24:eb:2d,Red Hat Enterprise Linux 9,2,16,128,Human Resources,Gregory Sampson,production
+SRV-0597,it-0597,192.168.154.161,4e:62:c1:34:d2:71,Ubuntu Server 24.04,8,4,512,IT,Madison Randolph,staging
+SRV-0598,it-0598,10.80.194.225,e8:c9:22:4a:4e:e5,Rocky Linux 9,4,16,128,IT,Edwin Moore,testing
+SRV-0599,development-0599,192.168.209.252,d0:66:76:89:b0:b9,Ubuntu Server 24.04,8,1,512,Development,Katrina Terry,staging
+SRV-0600,finance-0600,172.19.213.170,c6:18:fa:ee:33:fd,Red Hat Enterprise Linux 9,128,32,256,Finance,Kara Holt,testing
+SRV-0601,development-0601,172.20.95.106,ac:a0:45:70:f9:8d,Debian 12,32,2,128,Development,Anthony Harrison,testing
+SRV-0602,human-resources-0602,10.178.104.147,66:22:f9:26:7c:7f,Rocky Linux 9,16,2,64,Human Resources,Geoffrey Herman,development
+SRV-0603,sales-0603,10.36.41.230,b0:ae:cc:cf:bb:0e,Rocky Linux 9,32,16,2048,Sales,Rachel Baird,development
+SRV-0604,sales-0604,192.168.57.16,96:11:99:6e:55:f2,Ubuntu Server 24.04,128,4,128,Sales,Robert Hart,development
+SRV-0605,finance-0605,192.168.202.210,0e:26:b3:c1:a1:b0,Windows Server 2019,64,32,256,Finance,Tiffany Allen,development
+SRV-0606,security-0606,10.7.32.171,ee:5f:60:bd:01:1f,Windows Server 2019,128,8,512,Security,David Wilson,staging
+SRV-0607,finance-0607,172.28.190.39,48:d4:4d:9d:75:f7,Red Hat Enterprise Linux 9,4,16,256,Finance,Devon Gomez,development
+SRV-0608,finance-0608,10.11.163.45,1c:f4:72:a7:d4:0c,Windows Server 2022,8,16,256,Finance,Kimberly Morgan,testing
+SRV-0609,development-0609,172.23.32.227,d8:c9:20:96:2e:9d,Windows Server 2022,16,32,128,Development,Gabriela Stanton,production
+SRV-0610,finance-0610,172.29.211.47,6e:50:c2:c9:a7:37,Windows Server 2019,2,8,4096,Finance,Joshua Garcia,staging
+SRV-0611,operations-0611,192.168.254.140,12:89:98:40:5c:17,Ubuntu Server 24.04,16,2,256,Operations,Pamela Baker,staging
+SRV-0612,human-resources-0612,172.27.129.205,30:8f:cd:ce:39:ee,Red Hat Enterprise Linux 9,128,1,4096,Human Resources,Paula Jacobson,staging
+SRV-0613,development-0613,10.26.34.207,96:9d:e7:0f:56:49,Red Hat Enterprise Linux 9,16,4,256,Development,Melissa Torres,testing
+SRV-0614,support-0614,10.194.158.193,26:0c:ca:8e:4a:f1,Windows Server 2019,64,16,4096,Support,Sarah Goodwin,testing
+SRV-0615,support-0615,10.215.19.30,fc:0e:dc:75:53:37,Ubuntu Server 24.04,4,32,64,Support,Eric Fleming,production
+SRV-0616,security-0616,10.202.135.169,1e:3e:53:06:fb:b2,Debian 12,8,4,2048,Security,James Simmons,staging
+SRV-0617,security-0617,10.131.2.128,ee:cb:19:bd:4c:55,Windows Server 2019,128,16,2048,Security,Dr. Matthew Jackson,production
+SRV-0618,finance-0618,10.254.7.125,54:b6:d2:00:b1:91,Ubuntu Server 24.04,64,1,2048,Finance,Nancy Dominguez,staging
+SRV-0619,sales-0619,10.198.104.30,58:7e:47:34:95:30,Windows Server 2022,128,32,4096,Sales,Marcus Kaiser,staging
+SRV-0620,sales-0620,172.17.13.110,b2:93:c8:69:a4:c9,Rocky Linux 9,128,32,128,Sales,Jenna Braun,testing
+SRV-0621,finance-0621,172.28.180.102,0c:ad:0b:d4:bb:ea,Ubuntu Server 24.04,128,32,128,Finance,Jamie Hart,staging
+SRV-0622,security-0622,10.68.174.11,7c:af:a6:b3:85:c6,Red Hat Enterprise Linux 9,8,16,2048,Security,Sarah Powell,staging
+SRV-0623,it-0623,192.168.1.46,ea:6f:72:52:16:1a,Windows Server 2019,8,16,1024,IT,Rachael Richard,staging
+SRV-0624,operations-0624,10.238.239.227,1c:44:12:34:ad:5e,Red Hat Enterprise Linux 9,2,1,128,Operations,Samuel Williams,development
+SRV-0625,human-resources-0625,172.28.55.230,4c:b6:7b:49:0c:70,Windows Server 2022,16,2,64,Human Resources,Mrs. Kristin Adams,development
+SRV-0626,human-resources-0626,192.168.189.217,04:bf:98:f0:a6:4f,Windows Server 2019,32,1,512,Human Resources,Jillian Gomez,testing
+SRV-0627,human-resources-0627,10.174.136.122,3c:bf:3b:8f:d2:db,Rocky Linux 9,4,16,64,Human Resources,Jordan Grant,development
+SRV-0628,development-0628,192.168.68.174,6a:c6:42:4b:c1:c6,Red Hat Enterprise Linux 9,128,2,128,Development,Annette Vega,production
+SRV-0629,human-resources-0629,172.21.249.235,28:16:be:46:82:e6,Red Hat Enterprise Linux 9,16,2,64,Human Resources,Jason Brown,staging
+SRV-0630,security-0630,10.23.201.238,02:cd:be:9c:51:4b,Rocky Linux 9,8,1,256,Security,Micheal Robertson,staging
+SRV-0631,finance-0631,10.196.196.103,52:f5:f1:9e:db:5c,Debian 12,128,32,512,Finance,Rachel Peterson,production
+SRV-0632,sales-0632,10.176.69.179,ee:58:38:59:d5:41,Windows Server 2019,2,32,2048,Sales,David Brooks DDS,testing
+SRV-0633,support-0633,192.168.100.245,36:33:ca:b3:8d:ac,Ubuntu Server 24.04,4,2,256,Support,Christopher Mason,production
+SRV-0634,support-0634,172.30.34.110,c2:cb:1b:6f:8b:ba,Rocky Linux 9,128,4,1024,Support,Kevin Morrison,testing
+SRV-0635,it-0635,172.31.7.61,8c:66:1a:34:3b:aa,Windows Server 2019,4,4,512,IT,William Pittman,staging
+SRV-0636,it-0636,192.168.210.124,60:92:6e:76:5d:96,Windows Server 2019,2,32,4096,IT,Patricia Mckee,development
+SRV-0637,security-0637,10.62.167.230,96:e4:3a:53:e3:83,Red Hat Enterprise Linux 9,2,16,64,Security,Matthew Humphrey,testing
+SRV-0638,it-0638,10.5.133.5,32:eb:b2:19:59:04,Windows Server 2019,128,8,2048,IT,Charles Singh,development
+SRV-0639,development-0639,192.168.241.247,b2:2f:4a:20:96:4e,Red Hat Enterprise Linux 9,4,1,1024,Development,Sharon Parker,testing
+SRV-0640,sales-0640,172.23.136.124,cc:40:7a:44:77:05,Red Hat Enterprise Linux 9,32,32,128,Sales,Lisa Pierce,production
+SRV-0641,development-0641,192.168.196.74,3e:08:5e:64:f0:70,Red Hat Enterprise Linux 9,2,32,1024,Development,Tammy Williams,development
+SRV-0642,human-resources-0642,10.164.64.216,d8:71:82:c2:7f:95,Windows Server 2019,128,2,256,Human Resources,Cindy Franco,production
+SRV-0643,operations-0643,192.168.26.101,b0:da:0c:9c:2d:66,Ubuntu Server 24.04,64,1,1024,Operations,Kenneth Allen,staging
+SRV-0644,development-0644,172.31.18.28,da:33:89:a9:5e:a8,Rocky Linux 9,16,2,4096,Development,Grant Robinson,production
+SRV-0645,human-resources-0645,192.168.36.219,54:e5:aa:fa:80:9f,Red Hat Enterprise Linux 9,4,16,256,Human Resources,Stephanie Martinez,staging
+SRV-0646,security-0646,192.168.237.2,84:76:b0:82:c9:32,Rocky Linux 9,64,4,128,Security,Joseph Fox,testing
+SRV-0647,operations-0647,10.156.129.253,d0:b5:02:6f:1f:73,Rocky Linux 9,8,32,256,Operations,Mark Miller,development
+SRV-0648,security-0648,172.20.109.203,cc:b7:6e:8e:c2:84,Red Hat Enterprise Linux 9,8,32,256,Security,Judy Hunt,staging
+SRV-0649,sales-0649,172.25.81.193,a2:cc:1c:42:4a:e9,Windows Server 2022,32,4,4096,Sales,Nicole Hughes,production
+SRV-0650,sales-0650,172.30.211.168,6c:95:99:07:4e:c3,Windows Server 2019,32,2,128,Sales,Charles Ingram Jr.,staging
+SRV-0651,finance-0651,172.17.127.134,32:81:df:b6:80:93,Windows Server 2019,2,32,64,Finance,Jacob Pacheco,production
+SRV-0652,security-0652,172.20.223.197,84:a4:6e:d4:e8:ed,Debian 12,32,16,1024,Security,Richard Barajas,production
+SRV-0653,operations-0653,192.168.86.224,1e:28:46:20:d1:0d,Rocky Linux 9,8,8,1024,Operations,Jennifer Keller,testing
+SRV-0654,support-0654,192.168.58.166,22:a1:6a:b1:67:d1,Red Hat Enterprise Linux 9,64,2,1024,Support,Fernando Anderson,development
+SRV-0655,sales-0655,172.30.3.158,14:f0:21:3d:69:f2,Windows Server 2022,16,8,512,Sales,Justin Harrison,testing
+SRV-0656,it-0656,192.168.246.151,2a:0e:99:68:40:c8,Rocky Linux 9,128,2,64,IT,Debra Tate,staging
+SRV-0657,sales-0657,172.25.161.194,24:89:ec:f3:b2:1b,Windows Server 2022,4,8,4096,Sales,Matthew Alvarado,staging
+SRV-0658,sales-0658,192.168.82.241,f2:05:da:fe:72:d2,Rocky Linux 9,16,8,512,Sales,Ellen Edwards,staging
+SRV-0659,development-0659,192.168.204.206,3c:9f:a5:32:c4:3d,Rocky Linux 9,32,32,128,Development,Jacob Brown,development
+SRV-0660,finance-0660,10.182.64.252,1a:cc:78:eb:3e:16,Red Hat Enterprise Linux 9,2,16,1024,Finance,Nancy Lawson,staging
+SRV-0661,finance-0661,192.168.156.46,3a:92:e1:d6:b8:8d,Windows Server 2022,4,4,64,Finance,Madison Brown,testing
+SRV-0662,development-0662,172.23.89.29,aa:d5:50:bf:36:d0,Debian 12,2,16,128,Development,Richard Hahn,development
+SRV-0663,development-0663,192.168.89.230,fa:d5:c9:ad:01:3b,Windows Server 2019,64,1,1024,Development,Mallory Morris,testing
+SRV-0664,sales-0664,172.20.177.166,20:4f:7d:1c:50:18,Red Hat Enterprise Linux 9,64,2,256,Sales,Dr. Jared Smith PhD,development
+SRV-0665,sales-0665,10.60.232.89,8c:d8:28:24:06:f3,Windows Server 2019,4,16,4096,Sales,Jennifer Reilly,production
+SRV-0666,support-0666,192.168.240.150,0a:92:2d:88:f3:b8,Windows Server 2019,4,32,2048,Support,Richard Cross,testing
+SRV-0667,development-0667,172.19.155.131,0a:28:8c:3f:f0:8b,Windows Server 2019,128,1,128,Development,Michael Gray,staging
+SRV-0668,sales-0668,10.143.17.106,6a:a5:27:e2:e0:19,Windows Server 2019,4,1,128,Sales,Michael Reynolds,production
+SRV-0669,it-0669,172.31.186.82,12:7b:82:dc:5a:e5,Rocky Linux 9,2,2,256,IT,Mary Williams,testing
+SRV-0670,security-0670,172.25.191.41,6e:f9:3c:f8:bf:c0,Ubuntu Server 24.04,2,16,256,Security,Jennifer Foley,development
+SRV-0671,operations-0671,192.168.1.144,6c:01:b9:95:10:d8,Windows Server 2019,4,8,512,Operations,Sarah Cooper,production
+SRV-0672,finance-0672,10.160.130.10,84:43:fb:e8:fd:1d,Ubuntu Server 24.04,128,1,1024,Finance,Cassandra Myers,development
+SRV-0673,sales-0673,172.24.196.124,2e:e7:00:6d:b7:2b,Red Hat Enterprise Linux 9,4,4,1024,Sales,Eric Hamilton,production
+SRV-0674,it-0674,192.168.176.234,78:12:8c:8f:98:31,Windows Server 2019,32,2,512,IT,Courtney Buck,production
+SRV-0675,development-0675,192.168.84.106,cc:aa:9e:8b:66:b1,Windows Server 2019,64,4,128,Development,Melissa Trevino,development
+SRV-0676,development-0676,172.25.136.96,f0:a7:56:a7:4d:51,Windows Server 2019,8,8,128,Development,Victor Henderson,staging
+SRV-0677,it-0677,192.168.242.42,c0:bf:55:88:aa:29,Ubuntu Server 24.04,4,16,256,IT,Rita Williams,staging
+SRV-0678,it-0678,192.168.191.88,e8:1f:a0:1f:12:fd,Windows Server 2022,32,2,128,IT,Carl Boyle,development
+SRV-0679,development-0679,192.168.190.104,0e:06:2f:92:13:a3,Ubuntu Server 24.04,128,16,2048,Development,Ms. Nicole Jones DDS,development
+SRV-0680,finance-0680,172.23.78.35,e6:8b:b8:a6:3e:25,Windows Server 2022,64,16,4096,Finance,Kimberly Pruitt,staging
+SRV-0681,human-resources-0681,192.168.196.176,f4:1a:af:c2:c8:a1,Windows Server 2019,32,32,1024,Human Resources,Clayton Davis,testing
+SRV-0682,development-0682,192.168.89.71,0e:da:1c:54:4a:52,Ubuntu Server 24.04,16,8,4096,Development,Jerry Mcintosh,production
+SRV-0683,it-0683,192.168.216.179,cc:9f:2d:dc:84:e2,Debian 12,4,8,128,IT,Jennifer Rangel,testing
+SRV-0684,support-0684,10.207.114.93,a8:a0:e7:4c:db:1f,Rocky Linux 9,8,32,4096,Support,Michael Hayes,development
+SRV-0685,operations-0685,10.12.151.87,ca:69:b5:59:f5:94,Rocky Linux 9,4,1,64,Operations,Connie Watson,staging
+SRV-0686,finance-0686,10.64.107.218,e2:5a:54:95:d2:b1,Rocky Linux 9,2,32,512,Finance,Gregory Stevens,development
+SRV-0687,human-resources-0687,192.168.202.178,2c:87:7e:2e:18:93,Debian 12,4,32,512,Human Resources,Regina Ray,development
+SRV-0688,human-resources-0688,10.221.107.199,3e:ca:b3:b5:ce:61,Windows Server 2022,64,2,128,Human Resources,Daniel Proctor,testing
+SRV-0689,security-0689,192.168.238.12,68:55:06:23:aa:7d,Rocky Linux 9,8,32,4096,Security,Hailey Jimenez,staging
+SRV-0690,development-0690,10.57.68.47,ee:69:7a:82:0a:51,Windows Server 2019,16,1,512,Development,Richard Phillips,testing
+SRV-0691,support-0691,10.178.190.219,da:73:0b:00:6a:34,Ubuntu Server 24.04,4,8,256,Support,William White,development
+SRV-0692,human-resources-0692,172.17.171.37,9e:16:ba:be:8c:08,Windows Server 2019,32,1,2048,Human Resources,Jason Bradshaw,production
+SRV-0693,support-0693,172.28.91.148,28:fc:38:a8:f9:49,Red Hat Enterprise Linux 9,64,32,256,Support,Jennifer Booker,production
+SRV-0694,development-0694,192.168.202.241,e4:71:98:77:e3:fd,Red Hat Enterprise Linux 9,4,8,4096,Development,Cameron Johnson,testing
+SRV-0695,sales-0695,192.168.37.158,5a:c6:ec:dc:f6:18,Red Hat Enterprise Linux 9,16,8,1024,Sales,Christopher Jones,development
+SRV-0696,operations-0696,10.54.175.186,2c:e1:99:e1:06:f5,Windows Server 2019,32,8,512,Operations,Calvin Clark,development
+SRV-0697,it-0697,10.240.94.162,9e:35:6f:02:d1:d9,Windows Server 2022,32,8,64,IT,Carol Morales,staging
+SRV-0698,sales-0698,10.33.105.143,02:26:f3:15:30:6f,Rocky Linux 9,16,16,2048,Sales,Garrett Daniel,staging
+SRV-0699,support-0699,10.252.44.155,ce:81:aa:a6:bc:c6,Debian 12,16,8,4096,Support,Catherine Williams,testing
+SRV-0700,development-0700,192.168.43.174,e8:7c:cd:fc:ca:b9,Windows Server 2022,4,16,256,Development,Pamela Robinson,development
+SRV-0701,support-0701,192.168.101.178,6a:4b:57:83:03:a7,Ubuntu Server 24.04,32,16,4096,Support,Betty Hoover,testing
+SRV-0702,security-0702,192.168.173.4,82:68:bf:42:32:9d,Ubuntu Server 24.04,4,16,256,Security,Elizabeth Taylor,testing
+SRV-0703,operations-0703,192.168.27.114,4c:ee:59:0b:7e:41,Debian 12,128,2,4096,Operations,Karen Taylor,testing
+SRV-0704,support-0704,192.168.72.12,5e:3b:fa:5e:ab:71,Windows Server 2019,4,4,256,Support,Lynn Hill,testing
+SRV-0705,human-resources-0705,192.168.120.241,e2:41:35:ec:21:f3,Windows Server 2019,64,32,128,Human Resources,Cameron Hamilton,testing
+SRV-0706,finance-0706,192.168.95.206,7e:4e:83:dc:58:ae,Red Hat Enterprise Linux 9,64,32,2048,Finance,Rebecca Clark,staging
+SRV-0707,finance-0707,10.197.109.55,1e:3e:82:87:ca:52,Rocky Linux 9,128,32,512,Finance,Elizabeth Mcdonald,production
+SRV-0708,security-0708,172.20.240.245,5c:44:00:70:a0:27,Windows Server 2022,64,8,1024,Security,Michael Wolfe,staging
+SRV-0709,development-0709,172.17.204.204,84:c8:a5:86:2a:21,Windows Server 2022,8,2,1024,Development,Cody Stafford,staging
+SRV-0710,development-0710,172.16.14.142,54:a0:e7:7f:61:ad,Windows Server 2022,2,2,2048,Development,Charlene Fitzgerald,production
+SRV-0711,it-0711,192.168.243.159,50:75:ab:ed:1e:cd,Windows Server 2019,2,16,4096,IT,Jared Lopez,staging
+SRV-0712,finance-0712,192.168.201.206,52:96:f3:48:4b:e9,Rocky Linux 9,64,16,256,Finance,Shannon Newton,development
+SRV-0713,operations-0713,10.157.185.149,80:4e:6f:7b:51:a7,Windows Server 2022,16,32,2048,Operations,Michael Hanson,production
+SRV-0714,development-0714,192.168.186.23,82:e8:44:3b:9b:d3,Debian 12,128,16,128,Development,David Combs,staging
+SRV-0715,security-0715,192.168.38.5,c6:46:b6:af:8c:0c,Windows Server 2019,16,2,1024,Security,Shannon Lawson,staging
+SRV-0716,sales-0716,192.168.209.64,3e:36:54:d3:3a:d2,Red Hat Enterprise Linux 9,64,2,1024,Sales,Vernon Owens,testing
+SRV-0717,sales-0717,10.208.123.65,90:7c:7f:73:09:47,Debian 12,8,16,512,Sales,Tracy Wise,production
+SRV-0718,security-0718,10.0.221.10,4a:94:02:cb:e8:1f,Debian 12,2,4,512,Security,Jennifer Richardson,development
+SRV-0719,sales-0719,10.33.107.46,c2:fa:6d:f2:45:3c,Rocky Linux 9,16,16,128,Sales,Meredith Ruiz,testing
+SRV-0720,support-0720,192.168.237.81,88:82:d2:3f:37:5b,Windows Server 2022,4,32,512,Support,Mitchell Manning,development
+SRV-0721,human-resources-0721,172.30.42.193,08:e4:24:5f:d5:69,Windows Server 2019,2,8,4096,Human Resources,Daniel Cole,production
+SRV-0722,security-0722,192.168.13.30,38:4b:66:6a:9e:00,Ubuntu Server 24.04,128,8,1024,Security,Ashley Galloway,production
+SRV-0723,security-0723,192.168.218.58,ae:5f:94:ad:6f:6f,Rocky Linux 9,32,1,2048,Security,Tara Johnston,staging
+SRV-0724,support-0724,10.54.206.147,fc:76:b5:d6:0e:07,Rocky Linux 9,8,2,1024,Support,Courtney Hernandez,production
+SRV-0725,human-resources-0725,172.29.90.63,1a:f7:36:81:47:8d,Debian 12,2,1,4096,Human Resources,Elizabeth Vincent,development
+SRV-0726,support-0726,192.168.72.207,d6:12:42:39:dc:5c,Windows Server 2022,2,2,128,Support,Stacy Flores,staging
+SRV-0727,operations-0727,10.69.131.116,86:3a:fd:7f:ad:8b,Ubuntu Server 24.04,32,4,256,Operations,Megan Jackson,development
+SRV-0728,development-0728,10.94.130.32,ea:43:30:ad:af:15,Windows Server 2022,128,32,1024,Development,Christina Rogers,testing
+SRV-0729,it-0729,10.12.12.86,9a:0c:1e:e4:c8:20,Red Hat Enterprise Linux 9,64,4,2048,IT,Angela Camacho,staging
+SRV-0730,finance-0730,192.168.26.89,70:44:14:d1:4b:2e,Debian 12,8,32,4096,Finance,Edward Weaver,development
+SRV-0731,development-0731,10.233.169.48,c6:d8:91:5a:fd:20,Debian 12,2,32,1024,Development,Kyle Torres,staging
+SRV-0732,human-resources-0732,172.23.201.216,e2:79:81:c3:66:98,Windows Server 2019,4,16,2048,Human Resources,Angela Rich,production
+SRV-0733,human-resources-0733,10.200.238.144,7e:f5:ca:c6:d9:e9,Ubuntu Server 24.04,64,2,64,Human Resources,Charles Lynch,staging
+SRV-0734,security-0734,10.171.35.210,58:ab:fd:4f:66:08,Ubuntu Server 24.04,4,8,512,Security,Elizabeth King,staging
+SRV-0735,support-0735,172.20.145.234,24:e2:b1:f0:2f:2b,Windows Server 2019,16,4,256,Support,Jasmine Price,production
+SRV-0736,security-0736,172.29.5.231,96:7d:b2:f1:48:82,Red Hat Enterprise Linux 9,4,4,512,Security,John White,testing
+SRV-0737,finance-0737,172.28.99.0,5a:db:a9:35:90:99,Windows Server 2019,32,2,128,Finance,Alexis Cardenas,development
+SRV-0738,sales-0738,10.65.160.165,de:46:dd:40:ff:dc,Debian 12,16,4,512,Sales,Lori Hammond,development
+SRV-0739,sales-0739,192.168.48.35,f8:ec:44:e1:71:a8,Ubuntu Server 24.04,32,16,4096,Sales,Glenda Martin,production
+SRV-0740,sales-0740,172.31.159.13,48:52:85:fe:a1:2f,Red Hat Enterprise Linux 9,8,2,64,Sales,Matthew Turner,testing
+SRV-0741,it-0741,172.18.115.214,24:c3:57:8b:81:a5,Rocky Linux 9,8,2,2048,IT,Linda Jones,development
+SRV-0742,human-resources-0742,192.168.154.252,b6:c7:47:b6:42:06,Windows Server 2022,32,1,512,Human Resources,Steven Reynolds,production
+SRV-0743,security-0743,172.18.152.13,ce:47:dd:86:9b:ad,Red Hat Enterprise Linux 9,128,2,4096,Security,Amy Brown,staging
+SRV-0744,it-0744,172.31.18.196,1a:eb:0a:7c:9e:d2,Windows Server 2022,32,1,512,IT,Timothy Ingram,development
+SRV-0745,security-0745,192.168.200.141,12:af:07:aa:00:19,Rocky Linux 9,16,32,256,Security,Brian Fisher,staging
+SRV-0746,security-0746,172.23.66.156,b8:d1:25:34:49:d9,Red Hat Enterprise Linux 9,16,2,1024,Security,Kim Padilla,development
+SRV-0747,human-resources-0747,10.51.255.13,ba:97:77:16:8f:cd,Debian 12,8,2,128,Human Resources,Carrie Hickman,development
+SRV-0748,sales-0748,192.168.152.220,e2:db:35:1c:e9:14,Red Hat Enterprise Linux 9,128,2,256,Sales,Chad Parker,development
+SRV-0749,sales-0749,10.179.126.180,6e:22:2a:ea:c3:92,Red Hat Enterprise Linux 9,2,16,128,Sales,Stephanie Cannon,development
+SRV-0750,support-0750,10.151.245.214,c2:6a:55:b4:88:bb,Ubuntu Server 24.04,64,16,256,Support,Michelle Mendez,production
+SRV-0751,development-0751,10.168.32.240,a8:5f:d8:42:c6:93,Red Hat Enterprise Linux 9,2,1,512,Development,Ashley Harris,production
+SRV-0752,sales-0752,10.144.0.226,c4:1a:03:33:cd:18,Windows Server 2022,4,8,512,Sales,Amanda Young,development
+SRV-0753,finance-0753,10.149.194.237,ea:11:49:bc:42:54,Ubuntu Server 24.04,128,32,1024,Finance,Michael Silva,development
+SRV-0754,finance-0754,192.168.81.218,74:9f:34:60:15:24,Windows Server 2019,2,2,64,Finance,Jill Key,production
+SRV-0755,security-0755,172.30.237.190,10:6f:fc:8d:aa:37,Ubuntu Server 24.04,2,32,128,Security,Sheila Chen,production
+SRV-0756,human-resources-0756,10.250.139.181,24:f8:52:e6:83:6a,Ubuntu Server 24.04,128,16,64,Human Resources,Richard Brown,development
+SRV-0757,human-resources-0757,10.36.130.111,04:14:53:a4:6b:03,Red Hat Enterprise Linux 9,64,16,2048,Human Resources,Ernest Hawkins,staging
+SRV-0758,security-0758,192.168.255.26,8a:24:87:4e:eb:0e,Ubuntu Server 24.04,4,1,256,Security,David Rivera,production
+SRV-0759,operations-0759,10.204.248.131,4a:34:c4:95:26:67,Debian 12,8,32,4096,Operations,Katherine Bolton,staging
+SRV-0760,security-0760,172.19.0.243,c2:b1:87:c0:42:70,Ubuntu Server 24.04,32,4,512,Security,Michael White,staging
+SRV-0761,sales-0761,172.23.236.76,06:72:03:b4:13:56,Rocky Linux 9,16,8,1024,Sales,Stephanie Harris,production
+SRV-0762,security-0762,172.18.165.67,4a:e9:1c:f2:41:4d,Debian 12,16,1,128,Security,Larry Mitchell,testing
+SRV-0763,human-resources-0763,172.29.56.112,26:f1:7e:81:44:e5,Debian 12,16,8,128,Human Resources,Amanda Kelly,production
+SRV-0764,development-0764,172.26.231.205,44:02:d2:2f:14:70,Ubuntu Server 24.04,128,16,1024,Development,Melissa Cook,staging
+SRV-0765,finance-0765,172.21.115.164,50:32:80:12:bc:6f,Red Hat Enterprise Linux 9,32,16,128,Finance,Steven Mccormick,development
+SRV-0766,operations-0766,10.240.120.254,50:c4:57:19:34:bd,Windows Server 2022,8,4,128,Operations,Molly Mitchell,development
+SRV-0767,operations-0767,10.157.246.182,0e:4f:85:60:9b:21,Windows Server 2019,2,8,1024,Operations,Patricia Taylor,development
+SRV-0768,support-0768,10.62.163.96,68:c0:d2:12:50:d7,Ubuntu Server 24.04,4,8,64,Support,Marc Savage,staging
+SRV-0769,support-0769,172.25.237.83,ae:11:cb:8d:a0:4c,Rocky Linux 9,128,4,128,Support,Christopher Walls,development
+SRV-0770,operations-0770,192.168.63.134,8e:3b:95:3b:ef:ad,Debian 12,64,16,256,Operations,Michael Johnson,development
+SRV-0771,security-0771,172.16.80.203,12:a7:37:96:b4:8f,Windows Server 2019,8,16,512,Security,Erica Carter,staging
+SRV-0772,it-0772,10.74.248.6,5c:d3:55:f1:2a:7a,Windows Server 2019,128,4,4096,IT,Matthew Holt,staging
+SRV-0773,support-0773,172.29.112.10,9e:70:b2:9d:cd:8f,Windows Server 2019,32,32,128,Support,Peter Henderson,staging
+SRV-0774,it-0774,10.203.108.34,78:5d:93:09:c9:5a,Debian 12,2,16,512,IT,Brittany Shields,development
+SRV-0775,operations-0775,10.173.128.75,7c:12:cc:2a:04:61,Red Hat Enterprise Linux 9,16,16,256,Operations,Taylor Barrera,staging
+SRV-0776,sales-0776,10.169.158.22,64:26:ee:95:cb:83,Windows Server 2022,32,1,4096,Sales,Jenny Edwards,development
+SRV-0777,support-0777,10.25.109.178,52:c0:ed:35:50:15,Debian 12,8,2,256,Support,Mr. Justin Wilson Jr.,staging
+SRV-0778,development-0778,10.3.48.74,fa:75:2b:5a:10:61,Red Hat Enterprise Linux 9,32,2,256,Development,Cynthia Brown,production
+SRV-0779,sales-0779,172.29.208.157,76:6d:12:a7:ea:25,Rocky Linux 9,128,8,64,Sales,Julie Hunt,testing
+SRV-0780,operations-0780,10.228.93.123,aa:f0:64:7a:e3:06,Ubuntu Server 24.04,128,8,4096,Operations,Christopher Collins,development
+SRV-0781,sales-0781,192.168.251.250,c0:fc:75:de:18:b7,Windows Server 2019,32,8,64,Sales,Sean Bell,production
+SRV-0782,sales-0782,10.194.23.120,a6:72:c1:ae:7f:f8,Windows Server 2022,128,2,512,Sales,Michael Cervantes,production
+SRV-0783,development-0783,172.26.60.75,ac:5e:8a:73:d2:c9,Debian 12,8,2,256,Development,Cheryl Hogan,production
+SRV-0784,operations-0784,172.29.81.159,98:c6:44:a3:00:c5,Ubuntu Server 24.04,4,1,2048,Operations,Jessica Kelley,development
+SRV-0785,security-0785,192.168.124.112,86:b9:f8:0f:f3:c9,Rocky Linux 9,16,4,256,Security,Mrs. Kelly Johnson,production
+SRV-0786,security-0786,192.168.14.57,7e:e6:f4:31:72:79,Debian 12,64,4,1024,Security,Robin Mcgee,staging
+SRV-0787,sales-0787,172.31.238.210,1c:3e:17:79:d2:74,Windows Server 2022,2,8,256,Sales,Robert Munoz,development
+SRV-0788,development-0788,172.24.0.176,3e:2a:59:53:9a:ec,Windows Server 2022,128,2,512,Development,Jonathan Acevedo,production
+SRV-0789,human-resources-0789,10.193.228.111,28:9d:bb:90:01:b1,Red Hat Enterprise Linux 9,64,1,512,Human Resources,Andrew Holden,development
+SRV-0790,sales-0790,10.207.159.223,4c:e1:9a:8c:53:79,Red Hat Enterprise Linux 9,2,8,512,Sales,Alicia Mann,production
+SRV-0791,sales-0791,192.168.15.228,44:c7:9b:57:81:0c,Rocky Linux 9,8,2,128,Sales,Jamie Wang,staging
+SRV-0792,it-0792,10.186.16.229,32:62:a0:2d:75:19,Rocky Linux 9,2,8,256,IT,Kyle Davis,development
+SRV-0793,sales-0793,10.46.4.227,7e:84:8e:b6:ed:78,Ubuntu Server 24.04,16,32,2048,Sales,Timothy Harrison Jr.,staging
+SRV-0794,security-0794,172.27.73.34,40:bf:37:f4:08:2f,Debian 12,128,16,256,Security,Heather Mcpherson,testing
+SRV-0795,human-resources-0795,10.135.193.139,b6:78:6b:e5:03:b2,Windows Server 2019,32,8,512,Human Resources,Erika Browning,staging
+SRV-0796,sales-0796,10.61.221.244,ce:f0:2c:3e:ef:d4,Windows Server 2019,128,16,128,Sales,Kaitlyn Jones,testing
+SRV-0797,sales-0797,192.168.54.22,68:42:ee:8b:60:a9,Windows Server 2022,64,1,4096,Sales,Jason Hess,staging
+SRV-0798,development-0798,172.29.214.78,18:d6:b6:7d:3c:00,Red Hat Enterprise Linux 9,8,8,4096,Development,Michelle Lawson,staging
+SRV-0799,finance-0799,192.168.195.93,5c:a3:6c:ac:f8:e6,Windows Server 2022,2,1,2048,Finance,Tyler Hendrix,staging
+SRV-0800,operations-0800,172.27.108.56,b0:20:52:ff:e9:27,Debian 12,2,1,64,Operations,Corey Underwood,testing
+SRV-0801,development-0801,10.42.56.70,b6:a8:9a:f1:59:2e,Rocky Linux 9,8,2,2048,Development,Tara King,production
+SRV-0802,development-0802,192.168.7.136,f2:91:37:47:e3:ea,Windows Server 2019,16,2,512,Development,Mario Brewer,staging
+SRV-0803,human-resources-0803,10.194.110.97,7e:11:8d:fc:45:5f,Rocky Linux 9,2,16,64,Human Resources,Chad Munoz DDS,staging
+SRV-0804,security-0804,192.168.208.196,a0:b7:30:cb:52:ba,Windows Server 2019,2,32,2048,Security,Stephen Johnson,staging
+SRV-0805,finance-0805,172.29.144.253,08:40:e3:c3:d5:6e,Debian 12,2,32,2048,Finance,Bryan Anderson,development
+SRV-0806,support-0806,10.136.21.170,2e:53:09:d7:fc:8f,Red Hat Enterprise Linux 9,32,4,128,Support,Jonathan Patterson,development
+SRV-0807,finance-0807,192.168.28.167,86:bd:b0:90:57:07,Rocky Linux 9,8,8,4096,Finance,Nicole Swanson,development
+SRV-0808,human-resources-0808,10.140.110.42,28:bc:99:5f:10:99,Windows Server 2022,16,16,2048,Human Resources,Matthew Ware,production
+SRV-0809,development-0809,172.24.99.199,52:86:66:5b:6e:ce,Windows Server 2022,16,1,4096,Development,Victoria Figueroa,testing
+SRV-0810,security-0810,172.27.165.69,04:54:8b:db:ba:2e,Debian 12,2,4,512,Security,Sara Jones,production
+SRV-0811,it-0811,192.168.207.9,e4:a6:1e:7c:46:ae,Debian 12,16,4,2048,IT,Shannon Ford,development
+SRV-0812,operations-0812,172.18.37.37,5e:38:fb:9c:59:7c,Ubuntu Server 24.04,16,16,1024,Operations,Joseph King,testing
+SRV-0813,human-resources-0813,192.168.246.150,a6:90:63:f9:cd:64,Windows Server 2019,64,16,2048,Human Resources,Kyle Holloway,staging
+SRV-0814,security-0814,10.52.118.46,9a:c9:d8:13:af:0d,Debian 12,32,4,64,Security,Joe Drake,testing
+SRV-0815,support-0815,172.20.103.250,7c:8f:35:8a:03:36,Windows Server 2019,4,8,128,Support,Mason Jackson,testing
+SRV-0816,sales-0816,172.16.18.66,a8:b3:9e:b3:12:58,Windows Server 2022,32,32,64,Sales,Lisa Turner,production
+SRV-0817,it-0817,10.4.37.166,be:f2:8d:dd:8c:be,Ubuntu Server 24.04,64,4,256,IT,Brian Peters,development
+SRV-0818,finance-0818,172.25.217.247,a0:02:0a:34:cd:4b,Debian 12,2,4,512,Finance,Kimberly Mann,testing
+SRV-0819,development-0819,192.168.211.12,c8:55:4a:02:23:51,Debian 12,2,1,2048,Development,Anne Daugherty,testing
+SRV-0820,finance-0820,192.168.183.134,12:00:b5:82:1b:0d,Windows Server 2019,128,16,256,Finance,Hailey Robinson,development
+SRV-0821,finance-0821,192.168.17.71,ee:1b:fb:ef:9b:2a,Ubuntu Server 24.04,64,32,512,Finance,Kara Knapp,development
+SRV-0822,security-0822,10.12.54.94,88:a8:77:e3:75:95,Red Hat Enterprise Linux 9,16,32,512,Security,Kevin Sutton Jr.,development
+SRV-0823,security-0823,10.65.152.145,ec:28:3d:bb:6b:2d,Red Hat Enterprise Linux 9,4,16,2048,Security,Keith Golden,staging
+SRV-0824,sales-0824,172.24.4.176,6e:0d:19:43:cb:e5,Ubuntu Server 24.04,2,1,4096,Sales,Tyler Atkinson,production
+SRV-0825,sales-0825,192.168.247.214,26:5c:07:a9:f5:f3,Debian 12,16,4,64,Sales,Cassandra Spencer,production
+SRV-0826,development-0826,10.127.146.30,d0:fa:35:89:af:48,Red Hat Enterprise Linux 9,4,2,256,Development,Allison Jacobs,testing
+SRV-0827,operations-0827,10.109.50.210,a6:33:e7:d3:31:63,Red Hat Enterprise Linux 9,16,32,64,Operations,Peter Barrera,staging
+SRV-0828,development-0828,192.168.4.66,c2:8e:48:84:6a:b1,Windows Server 2019,64,8,4096,Development,Stephen Johnson,testing
+SRV-0829,it-0829,172.26.21.246,e4:ef:83:fb:0f:6d,Red Hat Enterprise Linux 9,16,4,256,IT,Elizabeth Alexander,testing
+SRV-0830,finance-0830,10.19.26.235,c6:27:ce:ed:3f:0d,Windows Server 2019,64,4,4096,Finance,Daniel Hughes,production
+SRV-0831,human-resources-0831,192.168.233.89,e8:7d:3d:32:8d:70,Windows Server 2019,32,4,4096,Human Resources,Dawn Brown,testing
+SRV-0832,sales-0832,192.168.0.147,96:4e:20:76:2c:da,Red Hat Enterprise Linux 9,64,1,128,Sales,Brian Cortez,development
+SRV-0833,support-0833,172.24.115.15,da:60:fe:53:0e:e8,Red Hat Enterprise Linux 9,64,4,1024,Support,Kimberly Henson,production
+SRV-0834,human-resources-0834,172.24.27.219,da:0b:47:e9:83:d8,Ubuntu Server 24.04,8,2,64,Human Resources,Ashley Johnson,testing
+SRV-0835,sales-0835,172.27.51.76,3c:ee:4e:46:3f:1d,Rocky Linux 9,64,32,512,Sales,James Wilson,development
+SRV-0836,human-resources-0836,192.168.52.193,74:90:a3:4c:50:68,Debian 12,8,32,256,Human Resources,Nicholas Watson,development
+SRV-0837,it-0837,172.30.221.206,66:42:30:c3:ef:d8,Windows Server 2019,32,4,1024,IT,Joshua Collins,testing
+SRV-0838,security-0838,192.168.24.133,72:fd:97:41:d2:6d,Windows Server 2019,32,1,256,Security,Stephanie Mason,production
+SRV-0839,development-0839,192.168.144.173,62:00:b9:58:c3:08,Red Hat Enterprise Linux 9,2,1,256,Development,Diana Davis,testing
+SRV-0840,sales-0840,172.25.97.63,46:14:37:58:e0:92,Debian 12,64,1,4096,Sales,James Moran,production
+SRV-0841,human-resources-0841,10.174.252.56,44:3b:38:57:45:39,Debian 12,2,16,2048,Human Resources,Stephanie Chavez,production
+SRV-0842,operations-0842,10.220.211.5,e8:79:dc:d0:62:d9,Ubuntu Server 24.04,4,1,512,Operations,Linda Duncan,testing
+SRV-0843,development-0843,10.93.117.185,0c:b9:c0:10:8f:ee,Windows Server 2022,2,4,2048,Development,Anna Walton,staging
+SRV-0844,operations-0844,10.235.246.237,40:b7:87:33:04:24,Rocky Linux 9,16,8,512,Operations,Carla Smith,testing
+SRV-0845,operations-0845,172.21.144.7,f0:ac:27:25:a1:29,Windows Server 2022,4,8,256,Operations,Dr. Christopher Dalton,production
+SRV-0846,sales-0846,10.44.148.124,d8:a1:aa:58:00:33,Ubuntu Server 24.04,32,32,128,Sales,Diane Smith,staging
+SRV-0847,it-0847,10.91.110.51,4c:21:de:27:f0:30,Ubuntu Server 24.04,32,8,512,IT,Steven Jackson,testing
+SRV-0848,security-0848,192.168.208.71,f4:98:a2:40:ca:20,Debian 12,2,2,512,Security,Thomas Evans,testing
+SRV-0849,security-0849,192.168.62.57,5a:4a:69:5b:c3:d9,Windows Server 2019,128,2,64,Security,John Duarte,production
+SRV-0850,human-resources-0850,192.168.100.244,f4:f6:d6:1f:45:63,Rocky Linux 9,16,1,4096,Human Resources,Diane Cruz,testing
+SRV-0851,it-0851,10.191.182.72,58:99:d1:95:22:98,Red Hat Enterprise Linux 9,16,8,2048,IT,Ashley Stephenson,testing
+SRV-0852,security-0852,10.205.12.161,54:6e:5a:2a:25:7b,Red Hat Enterprise Linux 9,128,2,2048,Security,Alexandra Werner,testing
+SRV-0853,sales-0853,192.168.26.135,0e:38:0a:54:dd:3c,Debian 12,2,2,128,Sales,Jessica Hansen,development
+SRV-0854,human-resources-0854,192.168.199.189,d6:01:9e:05:af:bc,Windows Server 2022,2,4,128,Human Resources,Craig Randall,testing
+SRV-0855,sales-0855,172.26.112.47,f4:25:ff:bf:10:7e,Red Hat Enterprise Linux 9,32,32,512,Sales,Mary Norris,development
+SRV-0856,operations-0856,172.18.102.169,1e:10:92:a3:ff:0e,Windows Server 2019,128,32,512,Operations,Dominique Summers,production
+SRV-0857,sales-0857,172.26.232.96,24:67:d0:20:bf:20,Debian 12,16,8,128,Sales,Lisa Murray,development
+SRV-0858,development-0858,192.168.126.139,e0:9b:5e:88:24:22,Rocky Linux 9,2,8,4096,Development,Sue Collins,staging
+SRV-0859,human-resources-0859,192.168.144.204,92:ee:26:c1:85:b9,Rocky Linux 9,2,1,1024,Human Resources,Christina Kramer,production
+SRV-0860,human-resources-0860,10.207.222.222,5c:8b:12:72:d8:3c,Windows Server 2019,8,16,128,Human Resources,Mason Myers,development
+SRV-0861,it-0861,10.227.206.1,d8:f1:f7:82:84:48,Windows Server 2022,128,2,512,IT,Andres Fox,testing
+SRV-0862,finance-0862,192.168.106.6,98:43:4a:c4:72:07,Windows Server 2019,64,32,128,Finance,Adam Walters,staging
+SRV-0863,finance-0863,192.168.252.91,1c:94:76:57:42:c3,Windows Server 2019,16,16,2048,Finance,Jessica Fisher,staging
+SRV-0864,development-0864,10.248.212.37,de:58:cd:26:c9:c5,Debian 12,4,16,2048,Development,Jesse Becker,staging
+SRV-0865,human-resources-0865,10.139.254.138,ee:38:1c:7b:25:9b,Rocky Linux 9,64,8,64,Human Resources,Jonathan Peterson,development
+SRV-0866,operations-0866,192.168.27.23,12:38:3c:84:70:20,Debian 12,128,8,64,Operations,Jeanne Black,staging
+SRV-0867,it-0867,10.202.72.177,ee:cc:10:b7:e8:d6,Debian 12,64,1,4096,IT,Jennifer Hardy,testing
+SRV-0868,human-resources-0868,172.25.167.225,8a:22:5a:af:59:37,Rocky Linux 9,4,2,64,Human Resources,Alexandra Schmidt,testing
+SRV-0869,security-0869,192.168.162.119,fa:dc:26:7f:04:68,Ubuntu Server 24.04,16,4,256,Security,Anne Webb,staging
+SRV-0870,human-resources-0870,192.168.189.34,02:c4:d1:7a:e5:fa,Windows Server 2019,8,16,128,Human Resources,Daniel King,development
+SRV-0871,finance-0871,192.168.9.51,12:3a:fa:12:9a:ef,Rocky Linux 9,8,32,64,Finance,Andrew Campbell,production
+SRV-0872,operations-0872,172.30.119.153,24:0b:d6:31:20:77,Rocky Linux 9,16,1,64,Operations,Steven Hernandez,staging
+SRV-0873,sales-0873,10.16.100.147,a0:66:91:2a:9d:64,Debian 12,2,1,512,Sales,Jeremy Wood,staging
+SRV-0874,security-0874,172.21.182.216,3e:aa:ff:7b:8f:8f,Debian 12,128,2,4096,Security,Jessica Lynch,development
+SRV-0875,finance-0875,192.168.245.100,f0:2c:d8:ea:e3:30,Debian 12,2,2,64,Finance,Brooke Shaw,production
+SRV-0876,operations-0876,192.168.44.110,88:56:cd:e9:d4:7d,Ubuntu Server 24.04,8,32,128,Operations,Erik Lloyd,production
+SRV-0877,human-resources-0877,172.24.66.157,06:4f:6d:ed:e6:d4,Windows Server 2019,32,4,256,Human Resources,Dana Rios,production
+SRV-0878,it-0878,192.168.182.97,d2:b6:c9:a6:83:75,Debian 12,2,2,512,IT,Darius Lopez,testing
+SRV-0879,support-0879,172.29.108.192,38:ca:29:12:e3:df,Debian 12,64,16,128,Support,Brandon Krause,production
+SRV-0880,operations-0880,192.168.75.196,08:bd:54:39:ee:1b,Ubuntu Server 24.04,8,1,256,Operations,Patrick Whitehead,production
+SRV-0881,finance-0881,10.179.140.29,ee:41:31:3d:fc:8d,Rocky Linux 9,128,2,512,Finance,Erica French,staging
+SRV-0882,security-0882,192.168.25.37,68:8d:c6:90:4f:e5,Windows Server 2019,32,2,2048,Security,Eric Golden,production
+SRV-0883,sales-0883,10.128.234.81,fc:45:ee:cf:19:dd,Ubuntu Server 24.04,2,1,256,Sales,Anthony Shaw,testing
+SRV-0884,development-0884,10.22.94.151,6a:24:d7:bc:03:86,Windows Server 2022,64,1,128,Development,Robert Moore,development
+SRV-0885,security-0885,172.31.123.117,d8:a2:2f:9e:de:41,Red Hat Enterprise Linux 9,2,32,128,Security,Aaron Oliver,development
+SRV-0886,development-0886,172.25.180.78,d2:01:a8:0b:53:82,Red Hat Enterprise Linux 9,16,4,128,Development,Warren Cooper,staging
+SRV-0887,sales-0887,192.168.189.1,2a:34:b3:4e:96:40,Rocky Linux 9,32,2,512,Sales,Stephanie Price,production
+SRV-0888,human-resources-0888,192.168.216.210,da:2c:c2:db:99:b0,Red Hat Enterprise Linux 9,8,2,4096,Human Resources,Teresa Harris,staging
+SRV-0889,finance-0889,172.25.233.233,16:57:0b:76:07:ad,Red Hat Enterprise Linux 9,8,1,1024,Finance,Angel King,production
+SRV-0890,human-resources-0890,172.24.43.94,b4:4f:4f:41:f7:ee,Debian 12,2,8,64,Human Resources,Diana Martinez,staging
+SRV-0891,it-0891,172.29.44.6,68:a5:b8:08:fa:ea,Ubuntu Server 24.04,128,2,4096,IT,Corey Hunt,staging
+SRV-0892,operations-0892,10.155.141.221,62:c6:8b:34:4f:79,Windows Server 2022,4,32,64,Operations,Benjamin Williamson,staging
+SRV-0893,support-0893,192.168.13.251,d8:3c:59:a8:54:85,Windows Server 2022,16,2,64,Support,Amanda Walker,staging
+SRV-0894,support-0894,192.168.169.236,f6:da:8a:5c:c1:ad,Ubuntu Server 24.04,64,4,128,Support,Kristina Turner,production
+SRV-0895,human-resources-0895,172.26.175.193,18:48:46:6f:f0:8b,Windows Server 2019,8,8,512,Human Resources,Evelyn Campbell,testing
+SRV-0896,sales-0896,192.168.124.68,f4:a3:93:84:46:c2,Debian 12,2,8,512,Sales,Janet Anderson,production
+SRV-0897,it-0897,192.168.253.2,9c:96:5f:3d:57:b3,Windows Server 2019,32,8,256,IT,Cynthia Parker,development
+SRV-0898,security-0898,192.168.113.96,5c:c4:fd:3c:7e:b8,Ubuntu Server 24.04,32,16,1024,Security,Timothy Smith,production
+SRV-0899,finance-0899,192.168.191.140,b8:b0:c8:cc:83:4c,Debian 12,8,8,2048,Finance,Maria Walker,production
+SRV-0900,finance-0900,192.168.169.163,72:cb:a1:e2:98:8c,Debian 12,8,16,1024,Finance,Angela Simmons,development
+SRV-0901,human-resources-0901,192.168.205.4,a8:29:46:fa:f6:4c,Ubuntu Server 24.04,8,16,64,Human Resources,Eric Hill,production
+SRV-0902,it-0902,10.3.245.165,b8:db:ee:2b:29:30,Windows Server 2022,8,8,1024,IT,Steve Stephens,production
+SRV-0903,finance-0903,10.180.51.36,d6:5d:a8:42:12:e1,Windows Server 2022,128,8,4096,Finance,James Mccoy,development
+SRV-0904,it-0904,10.91.111.191,ea:01:75:ee:04:7f,Windows Server 2022,64,1,2048,IT,Donald Wallace,staging
+SRV-0905,development-0905,172.25.5.139,0c:78:a9:b2:3b:37,Windows Server 2019,2,8,4096,Development,James Tran,testing
+SRV-0906,security-0906,172.25.208.144,dc:9f:6c:04:ea:99,Rocky Linux 9,4,4,256,Security,Christine Kim,testing
+SRV-0907,support-0907,10.25.82.250,d4:e5:2a:82:9c:59,Windows Server 2022,16,2,1024,Support,Taylor Cox,testing
+SRV-0908,support-0908,172.22.104.154,7c:87:4a:cc:bf:fa,Ubuntu Server 24.04,128,1,1024,Support,Alexis Fisher,production
+SRV-0909,operations-0909,172.25.36.197,78:cf:15:dd:af:40,Ubuntu Server 24.04,64,4,4096,Operations,Aaron Carroll,staging
+SRV-0910,development-0910,172.24.91.242,b0:66:56:ee:d6:f6,Ubuntu Server 24.04,64,8,2048,Development,Nicole Franklin,production
+SRV-0911,sales-0911,172.28.14.202,aa:bd:1e:b5:cc:68,Debian 12,16,32,4096,Sales,Jordan Anthony,production
+SRV-0912,it-0912,172.25.230.159,b0:36:af:4e:85:fe,Debian 12,32,1,128,IT,Andrew Li,staging
+SRV-0913,human-resources-0913,172.19.16.179,b2:bf:db:0a:e6:47,Windows Server 2019,2,4,64,Human Resources,Jennifer Johnson,development
+SRV-0914,finance-0914,172.28.6.107,6e:fe:aa:f8:b0:28,Rocky Linux 9,32,4,1024,Finance,Katherine Brewer,production
+SRV-0915,sales-0915,10.215.242.71,96:77:af:fc:be:61,Red Hat Enterprise Linux 9,32,16,2048,Sales,Mrs. Joanna Ayala DDS,testing
+SRV-0916,development-0916,192.168.90.178,2c:5c:57:c1:d2:57,Windows Server 2022,2,8,128,Development,Crystal Ortega,testing
+SRV-0917,finance-0917,172.28.236.250,96:11:ac:bc:b0:f4,Rocky Linux 9,8,8,64,Finance,Kathleen Wang,testing
+SRV-0918,finance-0918,10.34.222.87,60:a2:a4:41:0b:85,Red Hat Enterprise Linux 9,32,1,4096,Finance,Nicholas Buckley,staging
+SRV-0919,finance-0919,172.19.24.27,7c:e8:24:c9:3b:c0,Rocky Linux 9,16,32,256,Finance,Richard May,development
+SRV-0920,support-0920,172.28.171.136,ca:9e:91:81:0f:f8,Red Hat Enterprise Linux 9,4,8,512,Support,Cassandra Underwood,production
+SRV-0921,security-0921,192.168.179.248,b0:e0:3d:65:dd:e3,Red Hat Enterprise Linux 9,128,4,256,Security,Cynthia Jones,development
+SRV-0922,security-0922,192.168.178.243,72:e8:a5:43:47:98,Debian 12,64,32,2048,Security,Amanda Brown,testing
+SRV-0923,security-0923,172.24.247.23,8a:be:64:99:fd:8d,Rocky Linux 9,8,32,2048,Security,William Pearson,testing
+SRV-0924,operations-0924,172.20.70.181,a8:55:ef:42:3f:dc,Debian 12,2,8,4096,Operations,Gloria Campos,production
+SRV-0925,sales-0925,10.248.156.9,be:e3:b4:e8:02:1e,Debian 12,2,1,64,Sales,Theresa Lewis,testing
+SRV-0926,operations-0926,172.18.8.17,96:e3:ef:f1:25:51,Windows Server 2019,16,32,256,Operations,Ashley Horne,staging
+SRV-0927,security-0927,192.168.240.25,aa:4f:16:80:f9:bb,Rocky Linux 9,64,8,512,Security,Robin Eaton,production
+SRV-0928,it-0928,192.168.48.68,c4:f3:95:85:6c:9c,Windows Server 2022,4,4,64,IT,Jennifer Collins,development
+SRV-0929,human-resources-0929,10.73.24.235,8a:81:25:f8:bc:a0,Red Hat Enterprise Linux 9,4,2,128,Human Resources,Teresa Miller,staging
+SRV-0930,it-0930,192.168.47.97,74:73:28:76:26:38,Windows Server 2022,64,16,128,IT,Daniel Horton,production
+SRV-0931,human-resources-0931,192.168.126.210,40:ec:a8:99:04:95,Windows Server 2019,16,16,1024,Human Resources,Ashlee Stewart MD,staging
+SRV-0932,security-0932,192.168.197.181,ba:d9:f2:78:dc:33,Windows Server 2022,16,32,2048,Security,Alexis Escobar,production
+SRV-0933,finance-0933,172.26.158.102,02:86:c0:32:8b:62,Windows Server 2019,128,8,512,Finance,Seth Jones,development
+SRV-0934,it-0934,192.168.36.12,e6:41:35:78:45:c5,Debian 12,32,1,64,IT,Christopher Martin,testing
+SRV-0935,operations-0935,172.18.119.111,c6:ff:3d:6a:8c:d2,Ubuntu Server 24.04,4,8,4096,Operations,David Stewart,production
+SRV-0936,it-0936,192.168.203.205,fa:7b:a5:77:0c:c0,Debian 12,32,32,4096,IT,Joshua Rivera,staging
+SRV-0937,operations-0937,192.168.42.181,50:b0:86:b5:73:a9,Rocky Linux 9,4,16,4096,Operations,Mr. Michael Gonzalez,production
+SRV-0938,finance-0938,10.142.92.174,24:65:8e:95:c2:e3,Windows Server 2022,16,2,256,Finance,Katherine Shields,development
+SRV-0939,it-0939,10.78.103.245,08:ba:5d:e4:22:3a,Windows Server 2019,16,16,256,IT,Mark Lynn,testing
+SRV-0940,finance-0940,10.171.87.181,98:45:df:07:83:14,Windows Server 2022,64,16,64,Finance,Valerie Payne,testing
+SRV-0941,development-0941,172.21.166.3,96:7c:17:3a:81:03,Ubuntu Server 24.04,8,1,256,Development,Christopher Davies,staging
+SRV-0942,it-0942,172.19.141.158,32:2a:65:63:6f:ee,Rocky Linux 9,16,32,4096,IT,William Harris,development
+SRV-0943,development-0943,172.31.98.135,26:34:d7:e5:2e:1d,Windows Server 2019,4,2,64,Development,Melissa Rice,development
+SRV-0944,support-0944,192.168.1.22,22:38:4a:ab:1a:a8,Windows Server 2019,16,32,1024,Support,Emily Morrow,testing
+SRV-0945,finance-0945,10.29.98.219,20:8a:5e:12:41:52,Rocky Linux 9,32,32,512,Finance,Brandon Villanueva,production
+SRV-0946,it-0946,172.19.246.224,0c:fa:85:a6:25:0e,Rocky Linux 9,4,16,2048,IT,Christina Bailey,testing
+SRV-0947,human-resources-0947,10.238.61.209,78:d0:a1:7a:70:8a,Windows Server 2019,2,8,512,Human Resources,Maria Bryant,testing
+SRV-0948,human-resources-0948,10.240.189.226,02:90:3c:6e:70:ba,Windows Server 2019,4,2,2048,Human Resources,Edward Wolfe,production
+SRV-0949,it-0949,10.11.29.98,2a:7d:60:d3:6d:2e,Debian 12,16,1,64,IT,Kelly Delacruz,development
+SRV-0950,finance-0950,172.19.103.7,70:ef:dc:52:80:3e,Rocky Linux 9,128,1,512,Finance,Brian Armstrong,testing
+SRV-0951,finance-0951,172.17.120.169,9e:c3:dc:27:6a:27,Windows Server 2022,8,4,64,Finance,Steven Jimenez,development
+SRV-0952,it-0952,10.119.5.30,a0:dd:2c:37:e2:dc,Debian 12,2,4,64,IT,Corey Gates,testing
+SRV-0953,sales-0953,172.25.71.31,5a:7e:ef:18:df:79,Ubuntu Server 24.04,64,16,512,Sales,Brandi Blankenship,production
+SRV-0954,development-0954,192.168.69.221,a4:69:a5:db:89:bf,Ubuntu Server 24.04,32,2,256,Development,Sandra Mcguire,development
+SRV-0955,finance-0955,192.168.190.202,f0:d5:93:ca:18:96,Windows Server 2022,128,1,4096,Finance,Rebecca Watson,staging
+SRV-0956,development-0956,10.67.63.31,6a:f9:8a:d5:87:c1,Rocky Linux 9,128,1,128,Development,Madison Boyd,staging
+SRV-0957,support-0957,172.27.4.70,34:f8:3d:51:70:bc,Rocky Linux 9,4,4,1024,Support,William Allen,production
+SRV-0958,finance-0958,10.197.78.50,80:17:dd:b9:d8:15,Rocky Linux 9,16,1,128,Finance,Robert Snyder,staging
+SRV-0959,finance-0959,172.16.212.209,52:12:9d:b2:f2:e8,Ubuntu Server 24.04,16,16,128,Finance,Amanda Gonzalez,staging
+SRV-0960,security-0960,10.119.83.100,ee:09:bc:8d:74:75,Ubuntu Server 24.04,2,8,512,Security,Karen Simon,production
+SRV-0961,human-resources-0961,172.26.6.132,7a:35:ac:bb:3f:7b,Windows Server 2019,16,8,2048,Human Resources,Sharon Sawyer,staging
+SRV-0962,human-resources-0962,10.169.61.47,04:bb:1d:80:14:9e,Red Hat Enterprise Linux 9,8,8,512,Human Resources,Kelly Obrien,staging
+SRV-0963,it-0963,192.168.149.229,a0:82:8c:81:e1:58,Rocky Linux 9,64,2,512,IT,Ann Henson,testing
+SRV-0964,finance-0964,172.22.191.189,70:6e:d6:27:15:db,Red Hat Enterprise Linux 9,64,16,256,Finance,Christopher Thompson,development
+SRV-0965,support-0965,172.20.160.104,32:80:c1:77:21:c2,Windows Server 2019,64,2,128,Support,Julie Cabrera,development
+SRV-0966,development-0966,172.29.98.24,7c:19:72:0e:57:4c,Windows Server 2019,16,8,2048,Development,Ricardo Davis,staging
+SRV-0967,it-0967,192.168.214.196,fc:7a:4e:30:56:57,Red Hat Enterprise Linux 9,8,32,128,IT,Matthew Camacho,testing
+SRV-0968,development-0968,10.16.36.162,b4:40:23:2a:c9:9a,Windows Server 2019,4,4,512,Development,Kathy Nunez,development
+SRV-0969,finance-0969,10.246.182.68,08:eb:d5:5f:e1:8e,Rocky Linux 9,64,4,256,Finance,Austin Williams,production
+SRV-0970,finance-0970,10.10.107.186,44:24:12:cd:e9:b6,Rocky Linux 9,8,2,256,Finance,Amber Brady,development
+SRV-0971,support-0971,192.168.77.146,28:27:3d:40:fa:e9,Debian 12,4,8,1024,Support,Kimberly Williams,testing
+SRV-0972,human-resources-0972,172.27.111.105,5c:ed:18:4b:60:9b,Red Hat Enterprise Linux 9,2,1,4096,Human Resources,Samantha Baird,testing
+SRV-0973,operations-0973,192.168.100.170,4c:2c:07:87:25:f8,Windows Server 2019,2,8,4096,Operations,Elaine Doyle,testing
+SRV-0974,finance-0974,172.21.77.204,7c:1d:cd:66:d5:63,Red Hat Enterprise Linux 9,128,2,2048,Finance,William Robles,development
+SRV-0975,security-0975,172.27.53.183,9a:a4:f9:da:4e:82,Ubuntu Server 24.04,4,8,64,Security,Matthew Robinson,staging
+SRV-0976,security-0976,10.89.147.185,80:d2:98:27:7e:89,Debian 12,16,4,256,Security,Emily Delgado,production
+SRV-0977,it-0977,192.168.156.220,fa:f4:90:57:96:5b,Red Hat Enterprise Linux 9,64,4,4096,IT,Francis Brown,testing
+SRV-0978,human-resources-0978,10.108.120.195,fa:22:7b:84:9e:24,Ubuntu Server 24.04,4,16,2048,Human Resources,George Mccann,production
+SRV-0979,sales-0979,10.253.149.99,16:f2:76:0d:91:77,Red Hat Enterprise Linux 9,2,16,512,Sales,Dominic Perry,testing
+SRV-0980,finance-0980,192.168.40.33,c4:01:42:96:6f:ef,Windows Server 2019,2,32,4096,Finance,Courtney Jones,staging
+SRV-0981,human-resources-0981,10.104.154.30,8a:eb:23:28:61:7c,Red Hat Enterprise Linux 9,16,16,2048,Human Resources,Sarah Coleman,development
+SRV-0982,finance-0982,10.115.163.92,28:4d:17:28:9e:b0,Rocky Linux 9,16,32,1024,Finance,Henry Nguyen,development
+SRV-0983,finance-0983,172.20.188.1,58:8d:d9:9a:3e:04,Windows Server 2022,32,8,128,Finance,Kevin Everett,development
+SRV-0984,it-0984,10.173.143.58,62:b2:a1:e7:5d:2d,Red Hat Enterprise Linux 9,2,1,2048,IT,Wayne Graves,testing
+SRV-0985,security-0985,172.29.140.10,70:c6:d1:bb:92:19,Windows Server 2019,2,1,512,Security,Michelle Wu,testing
+SRV-0986,it-0986,192.168.123.204,bc:c8:8f:26:ad:d2,Debian 12,128,4,64,IT,George Shepherd,production
+SRV-0987,operations-0987,172.18.134.159,24:df:9e:cd:ab:1b,Windows Server 2019,32,32,512,Operations,Miranda Mcintyre,staging
+SRV-0988,human-resources-0988,172.29.185.179,46:98:39:e1:7f:11,Ubuntu Server 24.04,2,16,4096,Human Resources,Derek Kim,staging
+SRV-0989,it-0989,192.168.147.220,f0:12:41:d8:8a:d9,Rocky Linux 9,128,32,64,IT,Rachel Rojas,development
+SRV-0990,operations-0990,192.168.227.38,06:d6:aa:86:f7:3c,Red Hat Enterprise Linux 9,32,32,4096,Operations,Miguel Coleman,development
+SRV-0991,it-0991,10.151.114.7,80:0f:41:6b:4e:75,Ubuntu Server 24.04,16,32,4096,IT,Ronald Roberts,production
+SRV-0992,security-0992,172.26.234.76,c6:bb:2d:b4:0f:71,Ubuntu Server 24.04,4,32,512,Security,Jeremy Wright,staging
+SRV-0993,it-0993,172.20.57.82,20:af:fa:cf:e5:ba,Windows Server 2022,64,2,256,IT,Anne Dixon,testing
+SRV-0994,security-0994,172.29.73.179,ee:05:cc:fb:9b:cf,Windows Server 2022,2,4,256,Security,Michael Rivers,development
+SRV-0995,human-resources-0995,192.168.213.206,a2:8b:3c:80:64:3a,Rocky Linux 9,16,1,128,Human Resources,Megan Lee,development
+SRV-0996,development-0996,192.168.175.46,96:eb:00:47:f0:00,Ubuntu Server 24.04,128,16,4096,Development,Phillip Ferguson,development
+SRV-0997,operations-0997,172.26.14.57,e0:9f:0a:66:9e:2f,Ubuntu Server 24.04,16,2,1024,Operations,Paige Carter,testing
+SRV-0998,human-resources-0998,10.247.152.152,b4:dd:05:34:a3:58,Ubuntu Server 24.04,64,16,512,Human Resources,Rebecca Griffith,staging
+SRV-0999,operations-0999,192.168.21.79,ca:a6:a9:f1:e4:1e,Red Hat Enterprise Linux 9,16,16,128,Operations,Katherine Vaughn,development
+SRV-1000,development-1000,10.186.54.39,ae:5b:0a:b5:e8:54,Red Hat Enterprise Linux 9,8,1,4096,Development,Marissa Allison,testing
