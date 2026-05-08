@@ -13,7 +13,7 @@ def get_ip_intel(ip: str) -> dict[str, str]:
     try:
         with urlopen(url, timeout=10) as response:
             data = json.loads(response.read().decode("utf-8"))
-    except (HTTPError, URLError, TimeoutError, json.JSONDecodeError):
+    except (HTTPError, URLError, TimeoutError, OSError, json.JSONDecodeError):
         return {"country": "N/A", "org": "N/A"}
 
     return {

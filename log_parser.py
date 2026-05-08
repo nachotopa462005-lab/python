@@ -1,4 +1,34 @@
+from collections.abc import Iterable
 from pathlib import Path
+
+
+def parse_failed_ssh_ips_from_lines(lines: Iterable[str]) -> tuple[set[str], dict[str, int]]:
+    """
+    Extrae IPs fallidas desde lineas de log ya cargadas.
+    Util para pruebas unitarias y para reutilizar la logica de conteo.
+    """
+    failed_ips: set[str] = set()
+    failed_counts: dict[str, int] = {}
+
+    for line in lines:
+        clean_line: str = line.strip()
+
+        if "Failed password" not in clean_line:
+            continue
+
+        parts: list[str] = clean_line.split()
+        if "from" not in parts:
+            continue
+
+        ip_index: int = parts.index("from") + 1
+        if ip_index >= len(parts):
+            continue
+
+        ip: str = parts[ip_index]
+        failed_ips.add(ip)
+        failed_counts[ip] = failed_counts.get(ip, 0) + 1
+
+    return failed_ips, failed_counts
 
 
 def parse_failed_ssh_ips(log_path: str) -> tuple[set[str], dict[str, int]]:
@@ -6,29 +36,15 @@ def parse_failed_ssh_ips(log_path: str) -> tuple[set[str], dict[str, int]]:
     Lee un auth.log linea a linea y extrae las IPs con intentos SSH fallidos.
     Devuelve un set con IPs unicas y un diccionario con el conteo por IP.
     """
-    failed_ips: set[str] = set()
-    failed_counts: dict[str, int] = {}
+    try:
+        with open(log_path, "r", encoding="utf-8") as log_file:
+            return parse_failed_ssh_ips_from_lines(log_file)
+    except FileNotFoundError:
+        print(f"[ERROR] No existe el archivo de log: {log_path}")
+    except OSError as error:
+        print(f"[ERROR] No se pudo leer el archivo de log: {error}")
 
-    with open(log_path, "r", encoding="utf-8") as log_file:
-        for line in log_file:
-            clean_line: str = line.strip()
-
-            if "Failed password" not in clean_line:
-                continue
-
-            parts: list[str] = clean_line.split()
-            if "from" not in parts:
-                continue
-
-            ip_index: int = parts.index("from") + 1
-            if ip_index >= len(parts):
-                continue
-
-            ip: str = parts[ip_index]
-            failed_ips.add(ip)
-            failed_counts[ip] = failed_counts.get(ip, 0) + 1
-
-    return failed_ips, failed_counts
+    return set(), {}
 
 
 def show_failed_ssh_report(log_path: str) -> None:
